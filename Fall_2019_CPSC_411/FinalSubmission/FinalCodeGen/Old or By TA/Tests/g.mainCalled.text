@@ -1,0 +1,9 @@
+//Main should not be called anywhere, esp. in a function. It should error out.
+main() {
+	int x;
+	x  = 10;
+}
+
+func() {
+	main();
+}

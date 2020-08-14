@@ -1,0 +1,8 @@
+//This should error. It's random bits of python code, which should error due to lacking the ;, or just defining functions the wrong way. 
+def spinProbs(B, T):
+  tanhVal = np.tanh(B/T)
+  #print(tanhVal)
+  """
+  I had it as np.tanh((B, T)) for so long as it was screwing everything up....
+  """
+  return (1/2)*(1+tanhVal), (1/2)*(1-tanhVal)

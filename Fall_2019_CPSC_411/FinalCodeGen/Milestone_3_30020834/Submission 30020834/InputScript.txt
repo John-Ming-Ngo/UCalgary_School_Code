@@ -1,0 +1,20 @@
+make
+./Semantic_Checker_30020834.out Tests/1.NoMain.test
+./Semantic_Checker_30020834.out Tests/2.2Mains.test
+
+Parameters in main are invalid in the grammar, and thus are caught by the parser:
+
+./Semantic_Checker_30020834.out Tests/3.MainHasParam.test
+./Semantic_Checker_30020834.out Tests/4.BreakInWhile.test
+./Semantic_Checker_30020834.out Tests/5.BreakNotInWhile.test
+./Semantic_Checker_30020834.out Tests/6.funcNoReturn.test
+./Semantic_Checker_30020834.out Tests/7.voidFuncReturn.test
+./Semantic_Checker_30020834.out Tests/8.funcReturnNoVal.test
+./Semantic_Checker_30020834.out Tests/9.declarationInnerBlock.test
+./Semantic_Checker_30020834.out Tests/a.identifierRedefined.test
+./Semantic_Checker_30020834.out Tests/b.argsDiffer.text
+./Semantic_Checker_30020834.out	Tests/c.undeclaredIdentifier.text
+./Semantic_Checker_30020834.out Tests/d.nonBooleanCondition.text
+./Semantic_Checker_30020834.out Tests/e.wrongReturnType.text
+./Semantic_Checker_30020834.out Tests/f.operatorMismatch.text
+./Semantic_Checker_30020834.out Tests/g.mainCalled.text

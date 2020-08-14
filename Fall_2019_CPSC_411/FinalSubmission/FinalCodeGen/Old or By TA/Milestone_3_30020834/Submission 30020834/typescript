@@ -1,0 +1,216 @@
+Script started on 2020-03-22 00:06:35-06:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="80" LINES="24"]
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ls
+[0m[38;5;40mAST.cpp[0m          [38;5;40mDriver.cpp[0m       [38;5;40mmakefile[0m            [38;5;40mSymbol_Table_30020834.cpp[0m
+[38;5;40mAST.h[0m            [38;5;40mDriver.h[0m         [38;5;40mParser_30020834.yy[0m  [38;5;40mSymbol_Table_30020834.h[0m
+[38;5;40mcheckerCode.cpp[0m  [38;5;40mInputScript.txt[0m  [38;5;40mScanner_30020834.h[0m  [38;5;33mTests[0m
+[38;5;40mcheckerCode.h[0m    [38;5;40mmain.cpp[0m         [38;5;40mScanner_30020834.l[0m  typescript
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ make
+./Semantic_Checker_30020834.out Tests/1.NoMain.test
+./Semantic_Checker_30020834.out Tests/2.2Mains.test
+
+Parameters in main are invalid in the grammar, and thus are caught by the parser:
+
+./Semantic_Checker_30020834.out Tests/3.MainHasParam.test
+./Semantic_Checker_30020834.out Tests/4.BreakInWhile.test
+./Semantic_Checker_30020834.out Tests/5.BreakNotInWhile.test
+./Semantic_Checker_30020834.out Tests/6.funcNoReturn.test
+./Semantic_Checker_30020834.out Tests/7.voidFuncReturn.test
+./Semantic_Checker_30020834.out Tests/8.funcReturnNoVal.test
+./Semantic_Checker_30020834.out Tests/9.declarationInnerBlock.test
+./Semantic_Checker_30020834.out Tests/a.identifierRedefined.test
+./Semantic_Checker_30020834.out Tests/b.argsDiffer.text
+bison Parser_30020834.yy
+Parser_30020834.yy: warning: 1 shift/reduce conflict [-Wconflicts-sr]
+./Semantic_Checker_30020834.out	Tests/c.undeclaredIdentifier.text
+./Semantic_Checker_30020834.out Tests/d.nonBooleanCondition.text
+./Semantic_Checker_30020834.out Tests/e.wrongReturnType.text
+./Semantic_Checker_30020834.out Tests/f.operatorMismatch.text
+./Semantic_Checker_30020834.out Tests/g.mainCalled.text
+bison -d Parser_30020834.yy
+Parser_30020834.yy: warning: 1 shift/reduce conflict [-Wconflicts-sr]
+flex -o Scanner_30020834.yy.cc Scanner_30020834.l
+g++ -std=c++17 -o Semantic_Checker_30020834.out AST.cpp checkerCode.cpp Symbol_Table_30020834.cpp Driver.cpp main.cpp Scanner_30020834.yy.cc Parser_30020834.tab.cc
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/1.NoMain.test
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/1.NoMain.test
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+No main function!
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/2.2Mains.test
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/2.2Mains.test
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Too many Main functions!
+Check line: 9
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ 
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ Parameters in main are invalid in the grammar, and thus are caught by the parser:
+bash: Parameters: command not found
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ 
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/3.MainHasParam.test
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/3.MainHasParam.test
+Driver initialized
+------------------------------------------------ 
+Error: syntax error, unexpected INT, expecting )
+Occurred at line: 2
+Occurred with : int
+------------------------------------------------ 
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/4.BreakInWhile.test
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/4.BreakInWhile.test
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+------------------------------------------------ 
+Success
+| GLOB_DECLARE,
+|	| MAIN_FUNC_DECLARE,
+|	|	| MAIN_FUNC,
+|	|	|	| ID,main
+|	|	| BLOCK,
+|	|	|	| BLK_STATEMENTS,
+|	|	|	|	| WHILE,
+|	|	|	|	|	| TRUE,true
+|	|	|	|	|	| BLOCK,
+|	|	|	|	|	|	| BLK_STATEMENTS,
+|	|	|	|	|	|	|	| BREAK,
+
+------------------------------------------------ 
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/5.BreakNotInWhile.test
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/5.BreakNotInWhile.test
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Break not in while loop!
+Check line: 4
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/6.funcNoReturn.test
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/6.funcNoReturn.test
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Return expected but does not exist!
+Check line/function at: 5
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/7.voidFuncReturn.test
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/7.voidFuncReturn.test
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Return found, but returns something when it's void!
+Check line/function at: 5
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/8.funcReturnNoVal.test
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/8.funcReturnNoVal.test
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Return found, but returns nothing!
+Check line/function at: 5
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/9.declarationInnerBlock.test
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/9.declarationInnerBlock.test
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Variable declaration not in outermost block!
+Check line/function at: 6
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/a.identifierRedefined.test
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/a.identifierRedefined.test
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Scope 2
+	(VAR_y, VARIABLE, y, 2, TYPE_INT, )
+Scope 1
+	(FUNC_prints, FUNCTION, prints, 0, TYPE_VOID, )
+	(FUNC_halt, FUNCTION, halt, 0, TYPE_VOID, )
+	(FUNC_getchar, FUNCTION, getchar, 0, TYPE_INT, )
+	(FUNC_printb, FUNCTION, printb, 0, TYPE_VOID, )
+	(FUNC_printc, FUNCTION, printc, 0, TYPE_VOID, )
+	(FUNC_printi, FUNCTION, printi, 0, TYPE_VOID, )
+Scope 0
+	<< SCOPE 0 EMPTY  >>
+Identifier: y, Variable declaration already defined and is being redefined!
+Check line/function at: 3
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/b.argsDiffer.text
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/b.argsDiffer.text
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Number of parameters in a function call doesn't match!
+Check line/function at: 7
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/c.undeclaredIdentifier.text
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/c.undeclaredIdentifier.text
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Identifier: x, Variable called before it was declared in this scope!
+Check line/function at: 3
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/d.nonBooleanCondition.text
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/d.nonBooleanCondition.text
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Non-Boolean If/While Condition!
+Check line/function at: 7
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/e.wrongReturnType.text
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/e.wrongReturnType.text
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Return types mismatched!
+Check line/function at: 3
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/f.operatorMismatch.text
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/f.operatorMismatch.text
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+Binary operator type mismatched! OR 
+Check line/function at: 5
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ ./Semantic_Checker_30020834.out Tests/g.mainCalled.text
+------------------------------------------------ 
+Files Successfully Opened.
+Input File Name: Tests/g.mainCalled.text
+Driver initialized
+------------------------------------------------ 
+Semantic Checker Errors (If any): 
+You tried to call a main function!
+Check line/function at: 8
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ [Kjohn.ngo@csx:~/411/Milestone_3$ These are all my tests, corresponding to all 15 issues we were to check for!
+bash: These: command not found
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ You can see that each has a specialized error case
+bash: You: command not found
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ And you can see that each has located the line where this happened
+bash: And: command not found
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ e - that is all
+bash: e: command not found
+]0;john.ngo@csx:~/411/Milestone_3john.ngo@csx:~/411/Milestone_3$ exit
+exit
+
+Script done on 2020-03-22 00:08:11-06:00 [COMMAND_EXIT_CODE="127"]

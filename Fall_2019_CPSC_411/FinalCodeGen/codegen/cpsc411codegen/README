@@ -1,0 +1,14 @@
+This compiler when running it dumps the emitted wat to console. To save the output to a file execute the following:
+./compiler.out <input file> > output.wat
+
+The wat file can then be run in the same manner as any other wat file.
+This mini language contains the following features
+	- if
+	- functions 
+	- less than or equals
+	- addition
+	- getchar
+	- putchar
+
+The semantic checking hasn't been fully tested, so there will probably be bugs.
+

@@ -1,0 +1,19 @@
+//This should be valid input. It tests how the parser parses various types of valid global declarations.
+//We should see three cases of global variable declarations, two functions - 1 int and 1 void, and a main function declaration in this tree, organized under their own headings.
+
+int x;
+int y;
+boolean abracadabra;
+
+int numFunc(int a, int b) {
+	return a + b ;
+}
+
+void doNothing () {
+}
+
+main () {
+	int x;
+	int y;
+	boolean abracadabra;
+}

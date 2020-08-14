@@ -1,0 +1,11 @@
+//This should fail, as it returns but returns nothing at all!
+int func() {
+	int x;
+	x = 0;
+	return;
+}
+
+main() {
+	int x; 
+	x = 10;
+}

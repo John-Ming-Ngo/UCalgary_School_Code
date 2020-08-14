@@ -1,0 +1,31 @@
+System Calls:
+	- "OS operforms requested operation" ==> OS doesn't do it immediately, but rather schedules it to execute it at another time because other apps might be trying to do the same thing. ==> System calls are very expensive as a result, esp. since you have to wait on EVERYONE ELSE... AND YOUR PROGRAM IS SHUT OFF WHILST IT WAITS.
+
+Kernal: Can be thought of as API between hardware and applications. Some applications can run without a kernal by using the includeOS library, which simulates an OS...
+
+Readbyte  is a system call in the open file example, because it interacts with hardware...
+
+System calls usually written in assembly, inconenient to call from higher level languages, so we use higher level wrapper functions to make them comprehensible to us.
+
+We STRONGLY DISTINGUISH between system calls and the wrapper functions that call them in this class. Also functions which call these wrapper functions are utility functions, not wrappers.
+
+Why we need to 'open' the file: The program needs to FIND the file location, which is hard, esp. since the file can be stored in many different parts across the disk. Open files are stored as table entries in the kernal; that table is of LIMITED size...
+
+Linux uses a link system --> The file is removed when all references to it/all links to it are removed, but until it is, it cannot be removed. So for linux, you unlink all referneces to the file, and then when the file is no longer used anywhere it dies... ish. See lecture video, ~60 minutes into the lecture.
+
+Many system calls is C++ libraries being opened - relatively unavoidable, besides just using less libraries apparently.
+
+Timing functions: Why does the time not add up?
+	==> Other users on the systme hogging system call time forcing a program delay. ==> Only accurate if there's only one process on the system.  There's also just some innate overhead. User timing is the most reliable measure; others are less reliable. Also using strace -c.
+
+Assignment 1: Improving performance of an existing algorithm == Uses too many system calls. Reduce number of system calls by making better reads or soemthing (multiple bytes per system call...)
+
+The if(read) is what's so  horrifically inefficient, due to one byte at a time. We need to optimize it by reading significantly more bytes at the same amount of time.
+
+Ex: Read into a charecter buffer instead of a single variable...
+
+We can just implement our own getchar, as another way out...
+
+Read 1kb at a time ==> More than enough optimization. Get close to wc, somehow.
+
+Fork returns two integers - one to parent, the other to the child. Child gets 0; 

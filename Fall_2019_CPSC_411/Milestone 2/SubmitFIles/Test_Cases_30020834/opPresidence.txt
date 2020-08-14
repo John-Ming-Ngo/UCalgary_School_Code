@@ -1,0 +1,11 @@
+//This should be valid input. This tests operator precedence - if * goes before +, if () dominates them all, if logical expressions are the lowest expression, below functions.
+
+main () {
+	x = 1 + 2 * 3;
+	y = 1 * 2 + 3;
+	a = (1 + 2) * 3;
+	b = 1 + (2 * 3);
+	c = 1 / 2 / 3;
+	d = (1 + 2) == (2 + 1);
+	e = 1 + 2 == 2 + 1;
+}

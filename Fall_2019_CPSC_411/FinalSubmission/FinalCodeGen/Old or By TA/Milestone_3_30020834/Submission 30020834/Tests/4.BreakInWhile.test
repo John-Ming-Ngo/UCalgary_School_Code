@@ -1,0 +1,6 @@
+//This test should succeed
+main() {
+	while (true) {
+		break;
+	}
+}

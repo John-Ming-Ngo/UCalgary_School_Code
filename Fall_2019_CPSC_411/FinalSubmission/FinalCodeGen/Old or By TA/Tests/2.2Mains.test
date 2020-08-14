@@ -1,0 +1,9 @@
+//This should fail in that there's too many mains.
+main() {
+	int y;
+	y = 11;
+}
+main() {
+	int x;
+	x = 10;
+}

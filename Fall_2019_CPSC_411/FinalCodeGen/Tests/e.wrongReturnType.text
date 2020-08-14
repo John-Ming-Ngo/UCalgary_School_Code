@@ -1,0 +1,7 @@
+//This returns the wrong type of value, should error in compiling.
+int func() {
+	return true;
+}
+main() {
+	func();
+}

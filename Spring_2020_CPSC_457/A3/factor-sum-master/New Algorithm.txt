@@ -1,0 +1,35 @@
+Main calling function:
+
+main:
+	Create barrier with int = number of threads.
+	Create all these threads with threadID.
+	Create global problem domains.
+
+	Go into core of main.
+
+subsetSum(int problem)
+	Put problem number into global problem parameter with mutex locks.
+	Atomic bool switch to indicate that a new problem is loaded in.
+	Wait until bool switch that problem is solved is sent. (Spinlock)
+	Return solution located in global domain.
+
+Threads:
+	Block until single.
+	While single
+		Spinlock until bool switch that new problem is loaded in is toggled.
+		Set solution spot to -1.
+		Attempt base cases.
+		If base cases succeed, indicate problem is solved. Continue to next loop (return to spinlock)
+		Else:
+			Distribute problem subsets into global problem domains.
+	Block into parallel.
+	In parallel: Solve problem domain indicated by threadID, located in global domain.
+	If global answer output slot is not -1, check to see if it is smaller. If it is, break.
+	If have answer: Take mutex for the problem domain. Do the check again to make sure nothing changed on them.
+	Block into single.
+	If global solution space is not -1: set it to 0.
+	Toggle off that a new problem is loaded in (wait for new problem).
+	Toggle true answer is found.
+	Block again, global loop.
+
+

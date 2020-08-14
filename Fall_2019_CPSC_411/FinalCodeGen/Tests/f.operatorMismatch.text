@@ -1,0 +1,6 @@
+// || doesn't take in integers, should error out.
+
+main(){
+	boolean x;
+	x = (1 || true);
+}

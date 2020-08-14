@@ -1,0 +1,1 @@
+//This should be invalid. It's just a comment string, which should be removed and then there's nothing to parse, so it errors out.

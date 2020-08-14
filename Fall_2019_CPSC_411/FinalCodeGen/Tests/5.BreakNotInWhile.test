@@ -1,0 +1,5 @@
+//This should fail, as a break is seen outside a while loop.
+
+main() {
+	break;
+}

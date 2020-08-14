@@ -1,0 +1,10 @@
+//This should fail, as no return is defined for a non-void function.
+int func() {
+	int x;
+	x = 0;
+}
+
+main() {
+	int x;
+	x = 10;
+}

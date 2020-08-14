@@ -1,0 +1,4 @@
+//x hasn't been initialized, 
+main() {
+	x = 10;
+}

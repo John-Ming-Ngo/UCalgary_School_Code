@@ -1,0 +1,44 @@
+chmod +rwx AST.h
+chmod +rwx Driver.cpp
+chmod +rwx Driver.h
+chmod +rwx makefile
+chmod +rwx Parser_30020834.yy
+chmod +rwx Scanner_30020834.h
+chmod +rwx Scanner_30020834.l
+
+chmod +rwx gen.t18
+chmod +rwx parse.t19
+chmod +rwx parse.t2
+chmod +rwx parse.t21
+chmod +rwx parse.t22
+
+chmod +rwx actuallyAnImageBMP.txt
+chmod +rwx badSyntax.txt
+chmod +rwx commentOnly.txt
+chmod +rwx globalDeclations.txt
+chmod +rwx invalidStructure.txt
+chmod +rwx opAssociativity.txt
+chmod +rwx opPresidence.txt
+chmod +rwx wrongLanguage.txt
+
+ls
+make
+ls
+These Should Succeed:
+./Parser_30020834.out ms2/gen.t18
+./Parser_30020834.out ms2/parse.t19
+./Parser_30020834.out ms2/parse.t21
+./Parser_30020834.out ms2/parse.t22
+This should fail:
+./Parser_30020834.out ms2/parse.t2
+My tests now. These should fail:
+./Parser_30020834.out Test_Cases_30020834/actuallyAnImageBMP.txt
+./Parser_30020834.out Test_Cases_30020834/badSyntax.txt
+./Parser_30020834.out Test_Cases_30020834/commentOnly.txt
+./Parser_30020834.out Test_Cases_30020834/invalidStructure.txt
+./Parser_30020834.out Test_Cases_30020834/wrongLanguage.txt
+These Should Succeed:
+./Parser_30020834.out Test_Cases_30020834/globalDeclations.txt
+./Parser_30020834.out Test_Cases_30020834/opAssociativity.txt
+./Parser_30020834.out Test_Cases_30020834/opPresidence.txt
+exit

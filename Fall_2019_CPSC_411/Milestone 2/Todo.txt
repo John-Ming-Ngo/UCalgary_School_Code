@@ -1,0 +1,11 @@
+My own test cases, commentated.
+
+Make a readme file.
+Make a script file.
+
+Your assignment submission must be compiled and tested on the CPSC machines.
+
+Things to test (2 files each):
+
+4. Valid/Invalidly structured program
+5. Number of file inputs (Not a test file)

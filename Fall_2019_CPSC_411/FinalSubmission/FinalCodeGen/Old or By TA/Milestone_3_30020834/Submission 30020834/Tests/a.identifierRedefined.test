@@ -1,0 +1,7 @@
+//Should fail, varibale is being redefined again.
+int y;
+int y;
+main() {
+	int x;
+	x = y;
+}

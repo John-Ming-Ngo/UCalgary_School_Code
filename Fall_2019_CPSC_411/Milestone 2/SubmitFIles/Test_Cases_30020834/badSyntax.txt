@@ -1,0 +1,9 @@
+//This test should error. It tests if the parser can detect a syntax error on line... 7. b = 1. It's missing the ;. The line after is also an error, but shouldn't even matter. The goal is to identify the general vicinity of an error.
+void main() {
+	x = 1;
+	y = 2;
+	z = 6;
+	a = 2;
+	b = 1
+	asdl!!?;
+}

@@ -1,0 +1,67 @@
+Second set of lecture slides
+
+Concepts and Hardware, Caching, Booting, Kernal vs User mode (CPUs) (Restricted and superuser modes)
+
+Computers:
+	Hardware review
+
+CPUs:
+	Single CPU means single-core; cores are like mini-CPUs...
+	Multiple CPU can sort of mean multiple CPUs or cores. Abstraction.
+
+Registers:
+	Holds  data, doesn't need to talk to slow memory.  Data, addresses,  or both. Small and fast.
+	Special purposes:
+		Program counter, Stack pointer, status register, floats, etc.
+	OS Needs to be aware of these registers, since the OS needs to save ALL registers of the CPU.
+
+CPU Cycles:
+	Fetch instr from mem
+	Decode to determine types and operands
+	Execute instrs.
+	(Simple model of a CPU cycle. Some have much more cycles).
+
+	Early CPUs: Did them linearly,  but fetch is much longer than executing... can speed up by doing these stages in PARALLEL (Pipelining the instructions).
+
+	If executing instr n, decoder can be decoding n+1; fetch can be gathering n+2. 3 Separate hardware pieces is a possible thing to do.
+
+	Still only executing one instr at a time, but things still move faster. Much more complex to implement; need to deal with 'invalidated stages'. Ex: first instr changes val of register 1, second instr loads r1 value into r2, but!! r1 value changed! Or if the first instr was jump, second instr wouldn't even be done. Need to account for this.
+
+	Strength of pipelining: See slides.
+
+Major concept: Pipelining mechanism, parallelization and threads!!!!!! KEY CONCEPT IN GENERAL
+
+Memory hierarchy, about as expected. Note: Disk is extremely slow, pyramid not to scale.
+
+Cache: Some meory is consistently used often; RAM is very slow compared to CPU (~20-50x slower) ==> Caches is an in-between stage. First, CPU's load asks cache, if exists, yay. If not exists, cache asks RAM. Optimization: Make program access smallest amount of memory in any given time window. Note: Multiple cache layers IRL, each cache effectively  bigger and slower.
+
+Array: Small chunks at a time is faster  due to caches, since it all fits on the cache.
+
+Caches sit literally  right on the CPU die itself. Worry: Might be called extended registers... Some have an L4 cache which is a video card...
+
+Multi-core CPU caches: Can have big shared cache, or separate caches; or own L1 caches and shared l2, etc. Pros and cons/what's the difference????
+
+Own L1, Shared L2:
+	Strength: The L2 cache is significantly larger due to sharing.
+	Problem: All cores competing for the same L2 cache. 
+	Problem: L2 Caches are slower.
+Own L1&L2:
+	Problem: Synchronizing the caches! What if two different threads try to do the same data.
+	Ex: Core 1 stores data into L2 cache, Core 2 needs to check memory but it's not in memory; it's in core 1 cache...
+
+Other models exist, each with their own problems.
+
+Caches: icnrease performance of slower memory/device/file system by adding a small amount of much faster memory. KEY CONCEPT IN GENRAL.
+
+Caching issues: See slides. Hmmm...
+	Big one: Worry about stuff in cache not being written to memory before it gets evicted.
+
+
+MEMOIZATION: Like caching.
+	Optimization technique used to speed up programs: Store results of expensive computations. Idea:
+Slow function ==> Create wrapper for the function, wrapper has cache with results of known parameters. If it exists, return it, else, actually compute it.
+	Best for functions with a small number of possible parameters, though works well with recursives too...
+
+I/O Busywaiting - not great, can/should use sleep as well if you can. But best: Interrupts!
+
+Mostly we're just following slides notes ATM. Um.

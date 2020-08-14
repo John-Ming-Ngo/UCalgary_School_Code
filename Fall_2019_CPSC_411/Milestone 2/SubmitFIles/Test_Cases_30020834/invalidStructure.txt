@@ -1,0 +1,3 @@
+//This test should error. It contains valid lexemes but shouldn't be parsable by the grammar.
+int int int bool main;
+while for () {};

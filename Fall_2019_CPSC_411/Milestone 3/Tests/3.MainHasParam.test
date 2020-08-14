@@ -1,0 +1,5 @@
+//This should fail in that the main has a parameter. Will be caught by the parser!
+main(int x) {
+	int y;
+	y = x;
+}

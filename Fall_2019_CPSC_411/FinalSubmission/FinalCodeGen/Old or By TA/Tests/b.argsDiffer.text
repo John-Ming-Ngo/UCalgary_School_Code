@@ -1,0 +1,8 @@
+//This should fail; the argument isn't the same type as the function.
+void func(int a, int b) {
+	int x;
+	x = a + b;
+}
+main() {
+	func("abcd");
+}

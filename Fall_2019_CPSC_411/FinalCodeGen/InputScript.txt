@@ -1,0 +1,61 @@
+make
+./Compiler_toWAT_3002034.out final/gen.t1
+./Compiler_toWAT_3002034.out final/gen.t5
+./Compiler_toWAT_3002034.out final/gen.t10
+./Compiler_toWAT_3002034.out final/gen.t11
+./Compiler_toWAT_3002034.out final/gen.t12
+./Compiler_toWAT_3002034.out final/gen.t13
+./Compiler_toWAT_3002034.out final/gen.t14
+./Compiler_toWAT_3002034.out final/gen.t15
+./Compiler_toWAT_3002034.out final/gen.t18
+./Compiler_toWAT_3002034.out final/gen.t22
+./Compiler_toWAT_3002034.out final/gen.t26
+./Compiler_toWAT_3002034.out final/gen.t29
+./Compiler_toWAT_3002034.out final/gen.t30
+./Compiler_toWAT_3002034.out final/gen.t31
+./Compiler_toWAT_3002034.out final/gen.t32
+./Compiler_toWAT_3002034.out final/gen.t33
+./Compiler_toWAT_3002034.out final/gen.t34
+./Compiler_toWAT_3002034.out final/art-sieve.j--
+./Compiler_toWAT_3002034.out final/art-select.j--
+./Compiler_toWAT_3002034.out final/art-life.j--
+~aycock/411/bin/wat2wasm final/gen.t1.wat -o final/gen.t1.wasm
+~aycock/411/bin/wat2wasm final/gen.t5.wat -o final/gen.t5.wasm
+~aycock/411/bin/wat2wasm final/gen.t10.wat -o final/gen.t10.wasm
+~aycock/411/bin/wat2wasm final/gen.t11.wat -o final/gen.t11.wasm
+~aycock/411/bin/wat2wasm final/gen.t12.wat -o final/gen.t12.wasm
+~aycock/411/bin/wat2wasm final/gen.t13.wat -o final/gen.t13.wasm
+~aycock/411/bin/wat2wasm final/gen.t14.wat -o final/gen.t14.wasm
+~aycock/411/bin/wat2wasm final/gen.t15.wat -o final/gen.t15.wasm
+~aycock/411/bin/wat2wasm final/gen.t18.wat -o final/gen.t18.wasm
+~aycock/411/bin/wat2wasm final/gen.t22.wat -o final/gen.t22.wasm
+~aycock/411/bin/wat2wasm final/gen.t26.wat -o final/gen.t26.wasm
+~aycock/411/bin/wat2wasm final/gen.t29.wat -o final/gen.t29.wasm
+~aycock/411/bin/wat2wasm final/gen.t30.wat -o final/gen.t30.wasm
+~aycock/411/bin/wat2wasm final/gen.t31.wat -o final/gen.t31.wasm
+~aycock/411/bin/wat2wasm final/gen.t32.wat -o final/gen.t32.wasm
+~aycock/411/bin/wat2wasm final/gen.t33.wat -o final/gen.t33.wasm
+~aycock/411/bin/wat2wasm final/gen.t34.wat -o final/gen.t34.wasm
+~aycock/411/bin/wat2wasm final/art-sieve.j--.wat -o final/art-sieve.wasm
+~aycock/411/bin/wat2wasm final/art-select.j--.wat -o final/art-select.wasm
+~aycock/411/bin/wat2wasm final/art-life.j--.wat -o final/art-life.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t1.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t5.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t10.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t11.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t12.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t13.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t14.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t15.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t18.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t22.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t26.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t29.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t30.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t31.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t32.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t33.wasm
+~aycock/411/bin/wasm-interp --411 final/gen.t34.wasm
+~aycock/411/bin/wasm-interp --411 final/art-sieve.wasm
+~aycock/411/bin/wasm-interp --411 final/art-select.wasm
+~aycock/411/bin/wasm-interp --411 final/art-life.wasm

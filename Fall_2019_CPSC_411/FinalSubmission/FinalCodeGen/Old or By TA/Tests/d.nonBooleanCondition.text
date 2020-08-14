@@ -1,0 +1,7 @@
+int y;
+int x;
+main() {
+	if (x = 10) {
+		y = 10;
+	}
+}

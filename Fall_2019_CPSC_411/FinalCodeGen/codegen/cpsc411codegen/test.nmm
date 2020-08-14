@@ -1,0 +1,91 @@
+int a;
+bool b;
+
+
+fun hello () -> void {
+	putchar(72);
+	putchar(101);
+	putchar(108);
+	putchar(108);
+	putchar(111);
+	putchar(32);
+	putchar(119);
+	putchar(111);
+	putchar(114);
+	putchar(108);
+	putchar(100);
+}
+
+fun not(bool a) -> bool {
+	bool res = a;
+	if (a == false) {
+		res = true;
+	}
+
+	if (a == true) {
+		res = false;
+	}
+	return res;
+}
+
+fun monus_impl(int v, int r) -> int {
+	if (not(r + 1 == v)) {
+		r = monus_impl(v, r + 1);
+	}
+	return r;
+}
+fun monus1(int v) -> int {
+	return monus_impl(v, 0);
+}
+fun monus(int a, int b) -> int {
+	int r;
+    if(b == 0) {
+        r = a;
+    }
+
+	if(and(not(b == 0), a <= 0)) {
+		r = 0;
+	}
+	
+	if (and(not(b == 0), not (a <= 0))) {
+		a = monus1(a);
+		b = monus1(b);
+		r = monus(a, b);
+	}
+	
+	return r;
+}
+
+fun and(bool a, bool b) -> bool {
+    bool res = true;
+
+    if(a == false) {
+        res = false;
+    }
+
+    if(b == false) {
+        res = false;
+    }
+
+    return res;
+}
+
+fun main() -> void {
+    int c = 3;
+    int d = c + 65;
+
+    a = getchar();
+    hello();
+    
+    putchar(monus(70, 5));
+
+    if (and (c <= d, 1 <= 2)) {
+        if(false) {
+            putchar(65);
+        }
+        putchar(d + 1);
+    }
+
+    putchar(1 + a);
+    putchar(d);
+}

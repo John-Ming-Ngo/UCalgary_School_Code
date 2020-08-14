@@ -1,0 +1,11 @@
+WHy VM good:
+	a. Company: Cost effective. Can buy one big server and use it as needed, as opposed to many separate servers, many of which will be idle. Also
+	b. As developer: Able to execute your code on other operating systems much more easily.
+	c. Safer from viruses. Also lets you use other operating systems without needing to install another one onto the computer.
+	d. Easier to maintian; only need to manage VMs as opposed to different computers. 
+
+Define interrupt and traps:
+	Interrupts: 
+		Two types
+		
+	Software interrupts == Traps
