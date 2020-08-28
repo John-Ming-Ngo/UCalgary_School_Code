@@ -1,0 +1,85 @@
+#John Ming Ngo, V.1.0.4, Last Change 2016-09-29.
+#UCalgary ID 30020834, Tutorial Number T11
+#This program calculates a user's GPA in the CPSC 231 class.
+#Problems: The program cannot handle non-numerical input or no input and will crash.
+#Todo:  Also, double check my variable naming conventions - I think it's right, but I'm worried they may be too long.
+#Copyright 2016 John Ming Ngo and University of Calgary.
+
+#Introduction module
+print("-----------------------------------------------------------------------------")
+print("Welcome. This program calculates your term GPA and its weighted components.")
+print("This program will require you to enter your GPA for assignments and tests.")
+print("Note: This program can only handle numerical input.")
+print("An example of valid input is 4.0")
+print("An example of invalid input is 4.0GPA")
+print("This program cannot handle invalid input and will crash if given such input")
+print("This said, welcome to John's CPSC 231 grade calculator!")
+
+#Mini assignment grade module
+print("-----------------------------------------------------------------------------")
+miniAssignmentSum = 0.0
+print("Please input the GPAs of your eight mini assignments.")
+print("-----------------------------------------------------------------------------")
+for miniAssignmentNumber in range(8):
+    print("What was your mini-assignment", miniAssignmentNumber+1, "GPA?")
+    miniAssignmentInput = float(input())
+    miniAssignmentSum = miniAssignmentSum + miniAssignmentInput
+miniAssignmentGrade = miniAssignmentSum * 0.005
+print("-----------------------------------------------------------------------------")
+print("Your weighted mini-assignment component of your GPA is: %.2f" % miniAssignmentGrade, "(0.16 maximum)")
+
+#Full assignment grade module
+print("-----------------------------------------------------------------------------")
+print("Please input the GPAs of your five full assignments.")
+print("-----------------------------------------------------------------------------")
+print("What was your full assignment 1 GPA?")
+fullAssignment1 = float(input())
+fullAssignment1Grade = fullAssignment1 * 0.02
+print("What was your full assignment 2 GPA?")
+fullAssignment2 = float(input())
+fullAssignment2Grade = fullAssignment2 * 0.05
+print("What was your full assignment 3 GPA?")
+fullAssignment3 = float(input())
+fullAssignment3Grade = fullAssignment3 * 0.06
+print("What was your full assignment 4 GPA?")
+fullAssignment4 = float(input())
+fullAssignment4Grade = fullAssignment4 * 0.1
+print("What was your full assignment 5 GPA?")
+fullAssignment5 = float(input())
+fullAssignment5Grade = fullAssignment5 * 0.08
+fullAssignmentGrade = fullAssignment1Grade + fullAssignment2Grade + fullAssignment3Grade + fullAssignment4Grade + fullAssignment5Grade
+print("-----------------------------------------------------------------------------")
+print("Your weighted full assignment component of your GPA is: %.2f" % fullAssignmentGrade, "(1.24 maximum)")
+
+#Midterm exam grade module
+print("-----------------------------------------------------------------------------")
+print("Please input the GPAs of your midterm exam.")
+print("-----------------------------------------------------------------------------")
+print("What was your midterm GPA?")
+midtermInput = float(input())
+midtermGrade = midtermInput * 0.25
+print("-----------------------------------------------------------------------------")
+print("Your weighted midterm component of your GPA is: %.2f" % midtermGrade, "(1.00 maximum)")
+
+#Final exam grade module
+print("-----------------------------------------------------------------------------")
+print("Please input the GPAs of your final exam.")
+print("-----------------------------------------------------------------------------")
+print("What was your final exam GPA?")
+finalExamInput = float(input())
+finalExamGrade = finalExamInput * 0.40
+print("-----------------------------------------------------------------------------")
+print("Your weighted final exam component of your GPA is: %.2f" % finalExamGrade, "(1.60 maximum)")
+
+#Summary module
+print("-----------------------------------------------------------------------------")
+print("To summarize:")
+print("Your weighted mini-assignment component of your GPA is: %3.2f" % miniAssignmentGrade, "(0.16 maximum)")
+print("Your weighted full assignment component of your GPA is: %3.2f" % fullAssignmentGrade, "(1.24 maximum)")
+print("Your weighted midterm component of your GPA is:         %3.2f" % midtermGrade, "(1.00 maximum)")
+print("Your weighted final exam component of your GPA is:      %3.2f" % finalExamGrade, "(1.60 maximum)")
+
+#Weighted final grade module
+print("-----------------------------------------------------------------------------")
+weightedTermGrade = miniAssignmentGrade + fullAssignmentGrade + midtermGrade + finalExamGrade
+print("Your weighted term grade is: %.2f" % weightedTermGrade, "(4.00 maximum)")

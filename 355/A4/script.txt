@@ -1,0 +1,205 @@
+Script started on 2018-06-15 00:15:59-0600
+]0;john.ngo@csa1:~/355/A4john.ngo@csa1:~/355/A4$ ls
+Assign4.asm  [0m[38;5;40mAssign4.exe[0m  Assign4.s  script.txt
+]0;john.ngo@csa1:~/355/A4john.ngo@csa1:~/355/A4$ gdb Assign4.exe 
+GNU gdb (GDB) Fedora 8.0-13.fc26
+Copyright (C) 2017 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from Assign4.exe...(no debugging symbols found)...done.
+(gdb) break *createBoxes
+Breakpoint 1 at 0x40077c
+(gdb) break*[K *printInitial 
+Breakpoint 2 at 0x40078c
+(gdb) break *adjustBoxes 
+Breakpoint 3 at 0x4007b8
+(gdb) print[K[K[K[K[Kbreak *printVa[K[KNewVal 
+Breakpoint 4 at 0x4007f8
+(gdb) break *end
+No symbol table is loaded.  Use the "file" command.
+(gdb) break *end[K[K[KmainEnd 
+Breakpoint 5 at 0x400824
+(gdb) run
+Starting program: /home/ugc/john.ngo/355/A4/Assign4.exe 
+
+Breakpoint 1, 0x000000000040077c in createBoxes ()
+(gdb) prin[K[K[K[Kp/100d $x29
+Item count other than 1 is meaningless in "print" command.
+(gdb) p/100d $x29[C[1P[1@x
+0xfffffffff140:	-3712	65535	-1209936276	65535
+0xfffffffff150:	4196400	0	0	0
+0xfffffffff160:	-3712	65535	-1209936344	65535
+0xfffffffff170:	4196400	0	0	0
+0xfffffffff180:	0	0	4195528	0
+0xfffffffff190:	0	0	0	0
+0xfffffffff1a0:	4195488	0	0	0
+0xfffffffff1b0:	4195488	0	4196212	0
+0xfffffffff1c0:	0	1	-3400	65535
+0xfffffffff1d0:	4196400	0	0	0
+0xfffffffff1e0:	4195488	0	0	0
+0xfffffffff1f0:	0	0	0	0
+0xfffffffff200:	0	0	0	0
+0xfffffffff210:	0	0	0	0
+0xfffffffff220:	-3712	65535	2074025008	-229057841
+0xfffffffff230:	1599294464	1330401091	864107416	-229057841
+0xfffffffff240:	0	0	0	0
+0xfffffffff250:	0	0	0	0
+0xfffffffff260:	0	0	0	0
+0xfffffffff270:	0	0	0	0
+0xfffffffff280:	0	0	0	0
+0xfffffffff290:	0	0	-2145384446	-2145384446
+0xfffffffff2a0:	4325376	0	4195528	0
+---Type <return> to continue, or q <return> to quit---[K---Type <return> to continue, or q <return> to quit---
+0xfffffffff2b0:	1	0	-2757	65535
+0xfffffffff2c0:	0	0	-2719	65535
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x000000000040078c in printInitial ()
+(gdb) cx/100d $x29
+0xfffffffff140:	-3712	65535	-1209936276	65535
+0xfffffffff150:	0	0	1	1
+0xfffffffff160:	1	0	0	1
+0xfffffffff170:	1	1	0	0
+0xfffffffff180:	0	0	4195528	0
+0xfffffffff190:	0	0	0	0
+0xfffffffff1a0:	4195488	0	0	0
+0xfffffffff1b0:	4195488	0	4196212	0
+0xfffffffff1c0:	0	1	-3400	65535
+0xfffffffff1d0:	4196400	0	0	0
+0xfffffffff1e0:	4195488	0	0	0
+0xfffffffff1f0:	0	0	0	0
+0xfffffffff200:	0	0	0	0
+0xfffffffff210:	0	0	0	0
+0xfffffffff220:	-3712	65535	2074025008	-229057841
+0xfffffffff230:	1599294464	1330401091	864107416	-229057841
+0xfffffffff240:	0	0	0	0
+0xfffffffff250:	0	0	0	0
+0xfffffffff260:	0	0	0	0
+0xfffffffff270:	0	0	0	0
+0xfffffffff280:	0	0	0	0
+0xfffffffff290:	0	0	-2145384446	-2145384446
+0xfffffffff2a0:	4325376	0	4195528	0
+0xfffffffff2b0:	1	0	-2757	65535
+0xfffffffff2c0:	0	0	-2719	65535
+(gdb) 0xfffffffff150: 0       0       1       1
+Undefined command: "0xfffffffff150".  Try "help".
+(gdb) 0xfffffffff160: 1       0       0       1
+Undefined command: "0xfffffffff160".  Try "help".
+(gdb) See to[Khose values? Those are the values of the strut. It has been initialized
+Undefined command: "See".  Try "help".
+(gdb) 0xfffffffff150: 0       0       1       1
+Undefined command: "0xfffffffff150".  Try "help".
+(gdb) 0xfffffffff160: 1       0       0       1
+Undefined command: "0xfffffffff160".  Try "help".
+(gdb) 0xfffffffff170: 1       1       0       0
+Undefined command: "0xfffffffff170".  Try "help".
+(gdb) All of these, to be precise
+Undefined command: "All".  Try "help".
+(gdb) c
+Continuing.
+Initial box values:
+Box first origin = (0, 0) width = 1 height = 1 area = 1
+Box second origin = (0, 0) width = 1 height = 1 area = 1
+
+Breakpoint 3, 0x00000000004007b8 in adjustBoxes ()
+(gdb) cAll of these, to be precise[C[C[C[C[C[C0xfffffffff170: 1       1       0       0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C60: 1       0       0       1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C50: 0       0       1[C[C[C[C[C[C[C[C[C[C[C[C[C[CSee those values? Those are the values of the strut. It has been initialized[C[C[C[C[C[C[35P0xfffffffff160: 1       0       0       1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C50: 0       0       1[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx/100d $x29[K[C[C[C[C[C[Cc[Kx/100d $x29
+0xfffffffff140:	-3712	65535	-1209936276	65535
+0xfffffffff150:	0	0	1	1
+0xfffffffff160:	1	0	0	1
+0xfffffffff170:	1	1	0	0
+0xfffffffff180:	0	0	4195528	0
+0xfffffffff190:	0	0	0	0
+0xfffffffff1a0:	4195488	0	0	0
+0xfffffffff1b0:	4195488	0	4196212	0
+0xfffffffff1c0:	0	1	-3400	65535
+0xfffffffff1d0:	4196400	0	0	0
+0xfffffffff1e0:	4195488	0	0	0
+0xfffffffff1f0:	0	0	0	0
+0xfffffffff200:	0	0	0	0
+0xfffffffff210:	0	0	0	0
+0xfffffffff220:	-3712	65535	2074025008	-229057841
+0xfffffffff230:	1599294464	1330401091	864107416	-229057841
+0xfffffffff240:	0	0	0	0
+0xfffffffff250:	0	0	0	0
+0xfffffffff260:	0	0	0	0
+0xfffffffff270:	0	0	0	0
+0xfffffffff280:	0	0	0	0
+0xfffffffff290:	0	0	-2145384446	-2145384446
+0xfffffffff2a0:	4325376	0	4195528	0
+0xfffffffff2b0:	1	0	-2757	65535
+0xfffffffff2c0:	0	0	-2719	65535
+(gdb) No change, as expected
+Undefined command: "No".  Try "help".
+(gdb) No change, as expected[C[C[C[C[C[C[11Px/100d $x29[1P[1P[1@2
+0xfffffffff140:	-3712	65535	-1209936276	65535
+0xfffffffff150:	0	0	1	1
+0xfffffffff160:	1	0	0	1
+0xfffffffff170:	1	1	0	0
+0xfffffffff180:	0	0	4195528	0
+(gdb) More predi[K[Kcisely
+Undefined command: "More".  Try "help".
+(gdb) c
+Continuing.
+
+Breakpoint 4, 0x00000000004007f8 in printNewVal ()
+(gdb) Now they have been changed, let's check
+Undefined command: "Now".  Try "help".
+(gdb) Now they have been changed, let's check[C[C[C[C[C[Cc[KMore precisely[C[C[C[C[C[C[4Px/20d $x29
+0xfffffffff140:	-3712	65535	-1209936276	65535
+0xfffffffff150:	-5	7	1	1
+0xfffffffff160:	1	0	0	3
+0xfffffffff170:	3	9	0	0
+0xfffffffff180:	0	0	4195528	0
+(gdb) See those values?
+Undefined command: "See".  Try "help".
+(gdb) 0xfffffffff150: -5      7       1       1
+Undefined command: "0xfffffffff150".  Try "help".
+(gdb) 0xfffffffff160: 1       0       0       3
+Undefined command: "0xfffffffff160".  Try "help".
+(gdb) 0xfffffffff170: 3       9       0       0
+Undefined command: "0xfffffffff170".  Try "help".
+(gdb) -5 and -[K7 a[Kr[Kare the cood[Krdinates, 1 1 1 are the area, size and [K(gdb) -5 and 7 are the coordinates, 1 1 1 are the area, size and [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kwidth, size and area
+Undefined command: "-5".  Try "help".
+(gdb) 0, 0, 3, 3, and 8 are[K[K[K[K[K9 are the same for the other box
+Undefined command: "0".  Try "help".
+(gdb) c
+Continuing.
+
+Changed box values:
+Box first origin = (-5, 7) width = 1 height = 1 area = 1
+Box second origin = (0, 0) width = 3 height = 3 area = 9
+
+Breakpoint 5, 0x0000000000400824 in mainEnd ()
+(gdb) As printed
+Undefined command: "As".  Try "help".
+(gdb) As printed[C[C[C[C[C[Cc[K0, 0, 3, 3, and 9 are the same for the other box[C[C[C[C[C[C-5 and 7 are the coordinates, 1 1 1 are the width, size and area[C[C[C[C[C[C[23P0xfffffffff170: 3       9       0       0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C60: 1       0       0       3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C50: -5      7       1       1[C[C[C[C[C[C[24PSee those values?[C[C[C[C[C[C[7Px/20d $x29
+0xfffffffff140:	-3712	65535	-1209936276	65535
+0xfffffffff150:	-5	7	1	1
+0xfffffffff160:	1	0	0	3
+0xfffffffff170:	3	9	0	0
+0xfffffffff180:	0	0	4195528	0
+(gdb) As expected
+Undefined command: "As".  Try "help".
+(gdb) c
+Continuing.
+[Inferior 1 (process 4155) exited with code 071]
+(gdb) We are dpn[K[Kone
+Undefined command: "We".  Try "help".
+(gdb) exit
+Undefined command: "exit".  Try "help".
+(gdb) quit
+]0;john.ngo@csa1:~/355/A4john.ngo@csa1:~/355/A4$ exit
+exit
+
+Script done on 2018-06-15 00:21:29-0600

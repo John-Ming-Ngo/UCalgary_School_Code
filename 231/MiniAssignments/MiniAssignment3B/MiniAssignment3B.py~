@@ -1,0 +1,43 @@
+def addition(numberOne, numberTwo):
+	sum = numberOne + numberTwo
+	return sum
+def subtraction(numberOne, numberTwo):
+	difference = numberOne - numberTwo
+	return difference
+def multiplication(numberOne, numberTwo):
+	product = numberOne * numberTwo
+	return product
+def start():
+	inputNeeded = True
+	while inputNeeded == True:
+		try:
+			userNumberOne = float(input("Enter your first number."))
+			userNumberTwo = float(input("Enter your second number."))
+			inputNeeded = False
+		except ValueError:
+			print("Oh dear, I can't understand one of your inputs.")
+			print("Please input  your numbers again.")
+	print("What operation shall I perform on these numbers?")
+	print("(a)ddition")
+	print("(s)ubtraction")
+	print("(m)ultiplication")
+	inputNeeded = True
+	while inputNeeded == True:
+		operation = input("Please input your selection: ")
+		if operation not in ("a", "s", "m"):
+			print("Oh dear, I can't understand that. Try again.")
+		else:
+			inputNeeded = False
+	print("Your two numbers are: ", userNumberOne, "and", userNumberTwo)
+	if operation == "a":
+		result = addition(userNumberOne, userNumberTwo)
+		print("The result of adding your two numbers is: ", result)
+	elif operation == "s":
+		result = subtraction(userNumberOne, userNumberTwo)
+		print("The result of subtracting your two numbers is: ", result)
+	elif operation == "m":
+		result = multiplication(userNumberOne, userNumberTwo)
+		print("The result of multiplying your two numbers is: ", result)
+	else:
+		print("You got past the error checker. Error detected.")
+start()

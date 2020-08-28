@@ -1,0 +1,1269 @@
+Script started on 2018-05-30 11:30:26-0600
+]0;john.ngo@csa2:~/355john.ngo@csa2:~/355$ gdb assign2.exe
+GNU gdb (GDB) Fedora 8.0-13.fc26
+Copyright (C) 2017 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assign2.exe...(no debugging symbols found)...done.
+(gdb) break *main
+Breakpoint 1 at 0x400620
+(gdb) break *varInit
+Breakpoint 2 at 0x400628
+(gdb) break *initPrint
+Breakpoint 3 at 0x400634
+(gdb) break *isNegative
+Breakpoint 4 at 0x400650
+(gdb) break *loopBody
+Breakpoint 5 at 0x400668
+(gdb) break *shiftPlier
+Breakpoint 6 at 0x400674
+(gdb) disable s[KshiftPla[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kremove 6
+Ambiguous command "remove 6": remove-inferiors, remove-symbol-file.
+(gdb) disable 6
+(gdb) That was [K[K[K[Kone doesn't matter
+Undefined command: "That".  Try "help".
+(gdb) break *negativeOp
+Breakpoint 7 at 0x40069c
+(gdb) break *multiduct[K[K[K[KDuctPrint
+Breakpoint 8 at 0x4006a8
+(gdb) break *formatLong
+Breakpoint 9 at 0x4006bc
+(gdb) break*lon[K[K[K[K *longPrint
+Breakpoint 10 at 0x4006d4
+(gdb) display [K/i $pc
+1: x/i $pc
+<error: No registers.>
+(gdb) Display instructions
+Undefined command: "Display".  Try "help".
+(gdb) display.t[K[K/t w19
+No symbol table is loaded.  Use the "file" command.
+(gdb) display/t w19$w19
+2: /t $w19 = <error: No registers.>
+(gdb) display/t $w19[C[K[K20
+3: /t $w20 = <error: No registers.>
+(gdb) Multiplier and r[Kmultiplicand registries
+Undefined command: "Multiplier".  Try "help".
+(gdb) Multiplier and multiplicand registries
+Undefined command: "Multiplier".  Try "help".
+(gdb) w19 is multiplier, w20 multiplicand
+Undefined command: "w19".  Try "help".
+(gdb) display/t $w21
+4: /t $w21 = <error: No registers.>
+(gdb) That is the product registrt[Ky
+Undefined command: "That".  Try "help".
+(gdb) run
+Starting program: /home/ugc/john.ngo/355/assign2.exe 
+
+Breakpoint 1, 0x0000000000400620 in main ()
+1: x/i $pc
+=> 0x400620 <main>:	stp	x29, x30, [sp, #-16]!
+2: /t $w19 = 10000000000011011110000
+3: /t $w20 = 0
+4: /t $w21 = 10000000000010010100000
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x0000000000400628 in varInit ()
+1: x/i $pc
+=> 0x400628 <varInit>:	mov	w20, #0xdead0000            	// #-559087616
+2: /t $w19 = 10000000000011011110000
+3: /t $w20 = 0
+4: /t $w21 = 10000000000010010100000
+(gdb) H[KSkipped the beginning to variable initalization
+Undefined command: "Skipped".  Try "help".
+(gdb) Skipped the beginning to variable initalization[C[C[C[C[C[Cc[Krun[2Pc
+Continuing.
+
+Breakpoint 3, 0x0000000000400634 in initPrint ()
+1: x/i $pc
+=> 0x400634 <initPrint>:	adrp	x0, 0x400000
+2: /t $w19 = 101000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+(gdb) Now all three v[K[K,[K, multiplier, pl[K[Kmultiplicand, product, are right
+Undefined command: "Now".  Try "help".
+(gdb) Now all three, multiplier, multiplicand, product, are right[C[C[C[C[C[C[Kc
+Continuing.
+multiplier = 0x00000028 (40) multiplicand = 0xdead0000 (-559087616)
+
+
+Breakpoint 4, 0x0000000000400650 in isNegative ()
+1: x/i $pc
+=> 0x400650 <isNegative>:	mov	w23, #0x0                   	// #0
+2: /t $w19 = 101000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+(gdb) Here we check if the multiplier is negative. It isn't, so it should remain  xz[K[Kzero
+Undefined command: "Here".  Try "help".
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 101000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+(gdb) p/d $2[Kw23
+$1 = 0
+(gdb) As expected, negative is 0, or false.
+Undefined command: "As".  Try "help".
+(gdb) Here we run the algorithm
+Undefined command: "Here".  Try "help".
+(gdb) display.[K/d $i[Kw22
+5: /d $w22 = 0
+(gdb) This is the loop counter. It should run 32 times
+Undefined command: "This".  Try "help".
+(gdb) ni
+0x000000000040066c in loopBody ()
+1: x/i $pc
+=> 0x40066c <loopBody+4>:	b.eq	0x400674 <shiftPlier>  // b.none
+2: /t $w19 = 101000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 0
+(gdb) ni
+0x0000000000400674 in shiftPlier ()
+1: x/i $pc
+=> 0x400674 <shiftPlier>:	asr	w19, w19, #1
+2: /t $w19 = 101000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 0
+(gdb) ni
+0x0000000000400678 in shiftPlier ()
+1: x/i $pc
+=> 0x400678 <shiftPlier+4>:	tst	w21, #0x1
+2: /t $w19 = 10100
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 0
+(gdb) Milt[K[K[Kultiplier got shifted
+Undefined command: "Multiplier".  Try "help".
+(gdb) Multiplier got shifted[C[C[C[C[C[Cni[K
+0x000000000040067c in multiplierIf ()
+1: x/i $pc
+=> 0x40067c <multiplierIf>:	b.eq	0x400688 <multiplierElse>  // b.none
+2: /t $w19 = 10100
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 0
+(gdb) ni
+0x0000000000400688 in multiplierElse ()
+1: x/i $pc
+=> 0x400688 <multiplierElse>:	and	w19, w19, #0x7fffffff
+2: /t $w19 = 10100
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 0
+(gdb) ni
+0x000000000040068c in shiftProd ()
+1: x/i $pc
+=> 0x40068c <shiftProd>:	asr	w21, w21, #1
+2: /t $w19 = 10100
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 0
+(gdb) ni[K[KProduct to get h[Kshifted, but nothing in there!
+Undefined command: "Product".  Try "help".
+(gdb) Product to get shifted, but nothing in there![C[C[C[C[C[Cni[K
+0x0000000000400690 in loopIncrement ()
+1: x/i $pc
+=> 0x400690 <loopIncrement>:	add	w22, w22, #0x1
+2: /t $w19 = 10100
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 0
+(gdb) ni
+0x0000000000400694 in loopTest ()
+1: x/i $pc
+=> 0x400694 <loopTest>:	cmp	w22, #0x20
+2: /t $w19 = 10100
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 1
+(gdb) ni
+0x0000000000400698 in loopTest ()
+1: x/i $pc
+=> 0x400698 <loopTest+4>:	b.lt	0x400668 <loopBody>  // b.tstop
+2: /t $w19 = 10100
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 1
+(gdb) ni
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 10100
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 1
+(gdb) ni
+0x000000000040066c in loopBody ()
+1: x/i $pc
+=> 0x40066c <loopBody+4>:	b.eq	0x400674 <shiftPlier>  // b.none
+2: /t $w19 = 10100
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 1
+(gdb) ni
+0x0000000000400674 in shiftPlier ()
+1: x/i $pc
+=> 0x400674 <shiftPlier>:	asr	w19, w19, #1
+2: /t $w19 = 10100
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 1
+(gdb) ni
+0x0000000000400678 in shiftPlier ()
+1: x/i $pc
+=> 0x400678 <shiftPlier+4>:	tst	w21, #0x1
+2: /t $w19 = 1010
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 1
+(gdb) ni
+0x000000000040067c in multiplierIf ()
+1: x/i $pc
+=> 0x40067c <multiplierIf>:	b.eq	0x400688 <multiplierElse>  // b.none
+2: /t $w19 = 1010
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 1
+(gdb) ni
+0x0000000000400688 in multiplierElse ()
+1: x/i $pc
+=> 0x400688 <multiplierElse>:	and	w19, w19, #0x7fffffff
+2: /t $w19 = 1010
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 1
+(gdb) ni
+0x000000000040068c in shiftProd ()
+1: x/i $pc
+=> 0x40068c <shiftProd>:	asr	w21, w21, #1
+2: /t $w19 = 1010
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 1
+(gdb) We need to go through a lot before we get to w19 1 i[K[K, to as[Kdd for a produc [Kt s hift][K
+Undefined command: "We".  Try "help".
+(gdb) We need to go through a lot before we get to w19 1, to add for a product shhift
+Undefined command: "We".  Try "help".
+(gdb) We need to go through a lot before we get to w19 1, to add for a product shhift[A[C[Cni[K
+[K[A[C[C[C[C[C[C[C[C
+0x0000000000400690 in loopIncrement ()
+1: x/i $pc
+=> 0x400690 <loopIncrement>:	add	w22, w22, #0x1
+2: /t $w19 = 1010
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 1
+(gdb) ni
+0x0000000000400694 in loopTest ()
+1: x/i $pc
+=> 0x400694 <loopTest>:	cmp	w22, #0x20
+2: /t $w19 = 1010
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 2
+(gdb) ni
+0x0000000000400698 in loopTest ()
+1: x/i $pc
+=> 0x400698 <loopTest+4>:	b.lt	0x400668 <loopBody>  // b.tstop
+2: /t $w19 = 1010
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 2
+(gdb) ni
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 1010
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 2
+(gdb) ni
+0x000000000040066c in loopBody ()
+1: x/i $pc
+=> 0x40066c <loopBody+4>:	b.eq	0x400674 <shiftPlier>  // b.none
+2: /t $w19 = 1010
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 2
+(gdb) ni
+0x0000000000400674 in shiftPlier ()
+1: x/i $pc
+=> 0x400674 <shiftPlier>:	asr	w19, w19, #1
+2: /t $w19 = 1010
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 2
+(gdb) ni
+0x0000000000400678 in shiftPlier ()
+1: x/i $pc
+=> 0x400678 <shiftPlier+4>:	tst	w21, #0x1
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 2
+(gdb) ni
+0x000000000040067c in multiplierIf ()
+1: x/i $pc
+=> 0x40067c <multiplierIf>:	b.eq	0x400688 <multiplierElse>  // b.none
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 2
+(gdb) ni
+0x0000000000400688 in multiplierElse ()
+1: x/i $pc
+=> 0x400688 <multiplierElse>:	and	w19, w19, #0x7fffffff
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 2
+(gdb) ni
+0x000000000040068c in shiftProd ()
+1: x/i $pc
+=> 0x40068c <shiftProd>:	asr	w21, w21, #1
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 2
+(gdb) ni
+0x0000000000400690 in loopIncrement ()
+1: x/i $pc
+=> 0x400690 <loopIncrement>:	add	w22, w22, #0x1
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 2
+(gdb) ni
+0x0000000000400694 in loopTest ()
+1: x/i $pc
+=> 0x400694 <loopTest>:	cmp	w22, #0x20
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 3
+(gdb) ni
+0x0000000000400698 in loopTest ()
+1: x/i $pc
+=> 0x400698 <loopTest+4>:	b.lt	0x400668 <loopBody>  // b.tstop
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 3
+(gdb) ni
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 3
+(gdb) ni
+0x000000000040066c in loopBody ()
+1: x/i $pc
+=> 0x40066c <loopBody+4>:	b.eq	0x400674 <shiftPlier>  // b.none
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 3
+(gdb) ni
+0x0000000000400670 in loopBody ()
+1: x/i $pc
+=> 0x400670 <loopBody+8>:	add	w21, w21, w20
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 0
+5: /d $w22 = 3
+(gdb) ni
+0x0000000000400674 in shiftPlier ()
+1: x/i $pc
+=> 0x400674 <shiftPlier>:	asr	w19, w19, #1
+2: /t $w19 = 101
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11011110101011010000000000000000
+5: /d $w22 = 3
+(gdb) Here we go
+Undefined command: "Here".  Try "help".
+(gdb) Here we go[C[C[C[C[C[Cni[K
+0x0000000000400678 in shiftPlier ()
+1: x/i $pc
+=> 0x400678 <shiftPlier+4>:	tst	w21, #0x1
+2: /t $w19 = 10
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11011110101011010000000000000000
+5: /d $w22 = 3
+(gdb) ni
+0x000000000040067c in multiplierIf ()
+1: x/i $pc
+=> 0x40067c <multiplierIf>:	b.eq	0x400688 <multiplierElse>  // b.none
+2: /t $w19 = 10
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11011110101011010000000000000000
+5: /d $w22 = 3
+(gdb) ni
+0x0000000000400688 in multiplierElse ()
+1: x/i $pc
+=> 0x400688 <multiplierElse>:	and	w19, w19, #0x7fffffff
+2: /t $w19 = 10
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11011110101011010000000000000000
+5: /d $w22 = 3
+(gdb) ni
+0x000000000040068c in shiftProd ()
+1: x/i $pc
+=> 0x40068c <shiftProd>:	asr	w21, w21, #1
+2: /t $w19 = 10
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11011110101011010000000000000000
+5: /d $w22 = 3
+(gdb) ni
+0x0000000000400690 in loopIncrement ()
+1: x/i $pc
+=> 0x400690 <loopIncrement>:	add	w22, w22, #0x1
+2: /t $w19 = 10
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101111010101101000000000000000
+5: /d $w22 = 3
+(gdb) ni
+0x0000000000400694 in loopTest ()
+1: x/i $pc
+=> 0x400694 <loopTest>:	cmp	w22, #0x20
+2: /t $w19 = 10
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101111010101101000000000000000
+5: /d $w22 = 4
+(gdb) ni
+0x0000000000400698 in loopTest ()
+1: x/i $pc
+=> 0x400698 <loopTest+4>:	b.lt	0x400668 <loopBody>  // b.tstop
+2: /t $w19 = 10
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101111010101101000000000000000
+5: /d $w22 = 4
+(gdb) ni
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 10
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101111010101101000000000000000
+5: /d $w22 = 4
+(gdb) ni
+0x000000000040066c in loopBody ()
+1: x/i $pc
+=> 0x40066c <loopBody+4>:	b.eq	0x400674 <shiftPlier>  // b.none
+2: /t $w19 = 10
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101111010101101000000000000000
+5: /d $w22 = 4
+(gdb) ni
+0x0000000000400674 in shiftPlier ()
+1: x/i $pc
+=> 0x400674 <shiftPlier>:	asr	w19, w19, #1
+2: /t $w19 = 10
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101111010101101000000000000000
+5: /d $w22 = 4
+(gdb) ni
+0x0000000000400678 in shiftPlier ()
+1: x/i $pc
+=> 0x400678 <shiftPlier+4>:	tst	w21, #0x1
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101111010101101000000000000000
+5: /d $w22 = 4
+(gdb) ni
+0x000000000040067c in multiplierIf ()
+1: x/i $pc
+=> 0x40067c <multiplierIf>:	b.eq	0x400688 <multiplierElse>  // b.none
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101111010101101000000000000000
+5: /d $w22 = 4
+(gdb) ni
+0x0000000000400688 in multiplierElse ()
+1: x/i $pc
+=> 0x400688 <multiplierElse>:	and	w19, w19, #0x7fffffff
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101111010101101000000000000000
+5: /d $w22 = 4
+(gdb) ni
+0x000000000040068c in shiftProd ()
+1: x/i $pc
+=> 0x40068c <shiftProd>:	asr	w21, w21, #1
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101111010101101000000000000000
+5: /d $w22 = 4
+(gdb) ni
+0x0000000000400690 in loopIncrement ()
+1: x/i $pc
+=> 0x400690 <loopIncrement>:	add	w22, w22, #0x1
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11110111101010110100000000000000
+5: /d $w22 = 4
+(gdb) ni
+0x0000000000400694 in loopTest ()
+1: x/i $pc
+=> 0x400694 <loopTest>:	cmp	w22, #0x20
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11110111101010110100000000000000
+5: /d $w22 = 5
+(gdb) ni
+0x0000000000400698 in loopTest ()
+1: x/i $pc
+=> 0x400698 <loopTest+4>:	b.lt	0x400668 <loopBody>  // b.tstop
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11110111101010110100000000000000
+5: /d $w22 = 5
+(gdb) ni
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11110111101010110100000000000000
+5: /d $w22 = 5
+(gdb) ni
+0x000000000040066c in loopBody ()
+1: x/i $pc
+=> 0x40066c <loopBody+4>:	b.eq	0x400674 <shiftPlier>  // b.none
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11110111101010110100000000000000
+5: /d $w22 = 5
+(gdb) ni
+0x0000000000400670 in loopBody ()
+1: x/i $pc
+=> 0x400670 <loopBody+8>:	add	w21, w21, w20
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11110111101010110100000000000000
+5: /d $w22 = 5
+(gdb) ni
+0x0000000000400674 in shiftPlier ()
+1: x/i $pc
+=> 0x400674 <shiftPlier>:	asr	w19, w19, #1
+2: /t $w19 = 1
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11010110010110000100000000000000
+5: /d $w22 = 5
+(gdb) ni
+0x0000000000400678 in shiftPlier ()
+1: x/i $pc
+=> 0x400678 <shiftPlier+4>:	tst	w21, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11010110010110000100000000000000
+5: /d $w22 = 5
+(gdb) ni
+0x000000000040067c in multiplierIf ()
+1: x/i $pc
+=> 0x40067c <multiplierIf>:	b.eq	0x400688 <multiplierElse>  // b.none
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11010110010110000100000000000000
+5: /d $w22 = 5
+(gdb) ni
+0x0000000000400688 in multiplierElse ()
+1: x/i $pc
+=> 0x400688 <multiplierElse>:	and	w19, w19, #0x7fffffff
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11010110010110000100000000000000
+5: /d $w22 = 5
+(gdb) ni
+0x000000000040068c in shiftProd ()
+1: x/i $pc
+=> 0x40068c <shiftProd>:	asr	w21, w21, #1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11010110010110000100000000000000
+5: /d $w22 = 5
+(gdb) ni
+0x0000000000400690 in loopIncrement ()
+1: x/i $pc
+=> 0x400690 <loopIncrement>:	add	w22, w22, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101011001011000010000000000000
+5: /d $w22 = 5
+(gdb) ni
+0x0000000000400694 in loopTest ()
+1: x/i $pc
+=> 0x400694 <loopTest>:	cmp	w22, #0x20
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101011001011000010000000000000
+5: /d $w22 = 6
+(gdb) ni
+0x0000000000400698 in loopTest ()
+1: x/i $pc
+=> 0x400698 <loopTest+4>:	b.lt	0x400668 <loopBody>  // b.tstop
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101011001011000010000000000000
+5: /d $w22 = 6
+(gdb) ni
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101011001011000010000000000000
+5: /d $w22 = 6
+(gdb) ni
+0x000000000040066c in loopBody ()
+1: x/i $pc
+=> 0x40066c <loopBody+4>:	b.eq	0x400674 <shiftPlier>  // b.none
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101011001011000010000000000000
+5: /d $w22 = 6
+(gdb) ni
+0x0000000000400674 in shiftPlier ()
+1: x/i $pc
+=> 0x400674 <shiftPlier>:	asr	w19, w19, #1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101011001011000010000000000000
+5: /d $w22 = 6
+(gdb) ni
+0x0000000000400678 in shiftPlier ()
+1: x/i $pc
+=> 0x400678 <shiftPlier+4>:	tst	w21, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101011001011000010000000000000
+5: /d $w22 = 6
+(gdb) ni
+0x000000000040067c in multiplierIf ()
+1: x/i $pc
+=> 0x40067c <multiplierIf>:	b.eq	0x400688 <multiplierElse>  // b.none
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101011001011000010000000000000
+5: /d $w22 = 6
+(gdb) ni
+0x0000000000400688 in multiplierElse ()
+1: x/i $pc
+=> 0x400688 <multiplierElse>:	and	w19, w19, #0x7fffffff
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101011001011000010000000000000
+5: /d $w22 = 6
+(gdb) ni
+0x000000000040068c in shiftProd ()
+1: x/i $pc
+=> 0x40068c <shiftProd>:	asr	w21, w21, #1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11101011001011000010000000000000
+5: /d $w22 = 6
+(gdb) ni
+0x0000000000400690 in loopIncrement ()
+1: x/i $pc
+=> 0x400690 <loopIncrement>:	add	w22, w22, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11110101100101100001000000000000
+5: /d $w22 = 6
+(gdb) ni
+0x0000000000400694 in loopTest ()
+1: x/i $pc
+=> 0x400694 <loopTest>:	cmp	w22, #0x20
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11110101100101100001000000000000
+5: /d $w22 = 7
+(gdb) ni
+0x0000000000400698 in loopTest ()
+1: x/i $pc
+=> 0x400698 <loopTest+4>:	b.lt	0x400668 <loopBody>  // b.tstop
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11110101100101100001000000000000
+5: /d $w22 = 7
+(gdb) Product keeps getting shifted right,  see the 1s emerging form the l[K[K[K[K[K[K[K[K[Krom the left?
+Undefined command: "Product".  Try "help".
+(gdb) Product keeps getting shifted right,  see the 1s emerging from the left?
+Undefined command: "Product".  Try "help".
+(gdb) Let's skip to the next step
+Undefined command: "Let".  Try "help".
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11110101100101100001000000000000
+5: /d $w22 = 7
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111010110010110000100000000000
+5: /d $w22 = 8
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111101011001011000010000000000
+5: /d $w22 = 9
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111110101100101100001000000000
+5: /d $w22 = 10
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111010110010110000100000000
+5: /d $w22 = 11
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111101011001011000010000000
+5: /d $w22 = 12
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111110101100101100001000000
+5: /d $w22 = 13
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111010110010110000100000
+5: /d $w22 = 14
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111101011001011000010000
+5: /d $w22 = 15
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111110101100101100001000
+5: /d $w22 = 16
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111010110010110000100
+5: /d $w22 = 17
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111101011001011000010
+5: /d $w22 = 18
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 0
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111110101100101100001
+5: /d $w22 = 19
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 10000000000000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111010110010110000
+5: /d $w22 = 20
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 1000000000000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111101011001011000
+5: /d $w22 = 21
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 100000000000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111110101100101100
+5: /d $w22 = 22
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 10000000000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111010110010110
+5: /d $w22 = 23
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 1000000000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111101011001011
+5: /d $w22 = 24
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 10000100000000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111110101100101
+5: /d $w22 = 25
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 11000010000000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111010110010
+5: /d $w22 = 26
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 1100001000000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111101011001
+5: /d $w22 = 27
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 10110000100000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111110101100
+5: /d $w22 = 28
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 1011000010000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111010110
+5: /d $w22 = 29
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 101100001000000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111101011
+5: /d $w22 = 30
+(gdb) c
+Continuing.
+
+Breakpoint 5, 0x0000000000400668 in loopBody ()
+1: x/i $pc
+=> 0x400668 <loopBody>:	tst	w19, #0x1
+2: /t $w19 = 10010110000100000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111110101
+5: /d $w22 = 31
+(gdb) c
+Continuing.
+
+Breakpoint 7, 0x000000000040069c in negativeOp ()
+1: x/i $pc
+=> 0x40069c <negativeOp>:	cmp	w23, #0x0
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+5: /d $w22 = 32
+(gdb) c
+Continuing.
+
+Breakpoint 8, 0x00000000004006a8 in multiDuctPrint ()
+1: x/i $pc
+=> 0x4006a8 <multiDuctPrint>:	adrp	x0, 0x400000
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+5: /d $w22 = 32
+(gdb) c
+Continuing.
+product = 0xfffffffa multiplier = 0xcb080000
+
+Breakpoint 9, 0x00000000004006bc in formatLong ()
+1: x/i $pc
+=> 0x4006bc <formatLong>:	mov	w25, w21
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+5: /d $w22 = 32
+(gdb) c
+Continuing.
+
+Breakpoint 10, 0x00000000004006d4 in longPrint ()
+1: x/i $pc
+=> 0x4006d4 <longPrint>:	adrp	x0, 0x400000
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+5: /d $w22 = 32
+(gdb) c
+Continuing.
+64-bit result = 0xfffffffacb080000 (-22363504640)
+[Inferior 1 (process 14285) exited with code 062]
+(gdb) c[KMissed negativeOp and onwards, whoops, one sec
+Undefined command: "Missed".  Try "help".
+(gdb) i b
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000000000400620 <main>
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x0000000000400628 <varInit>
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x0000000000400634 <initPrint>
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x0000000000400650 <isNegative>
+	breakpoint already hit 1 time
+5       breakpoint     keep y   0x0000000000400668 <loopBody>
+	breakpoint already hit 32 times
+6       breakpoint     keep n   0x0000000000400674 <shiftPlier>
+7       breakpoint     keep y   0x000000000040069c <negativeOp>
+	breakpoint already hit 1 time
+8       breakpoint     keep y   0x00000000004006a8 <multiDuctPrint>
+	breakpoint already hit 1 time
+9       breakpoint     keep y   0x00000000004006bc <formatLong>
+	breakpoint already hit 1 time
+10      breakpoint     keep y   0x00000000004006d4 <longPrint>
+	breakpoint already hit 1 time
+(gdb) disable 1
+(gdb) disable 1[K2
+(gdb) disable 2[K3
+(gdb) disable 3[K4
+(gdb) disable 4[K5
+(gdb) run
+Starting program: /home/ugc/john.ngo/355/assign2.exe 
+multiplier = 0x00000028 (40) multiplicand = 0xdead0000 (-559087616)
+
+
+Breakpoint 7, 0x000000000040069c in negativeOp ()
+1: x/i $pc
+=> 0x40069c <negativeOp>:	cmp	w23, #0x0
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+5: /d $w22 = 32
+(gdb) If negative, it does something to the product. If the multiplier was negat ive, it adds the[K[K[K[K [K[K[K[K[Ksubtracts the assignment[K[K[K[K[K[K[K[K[K[Kmultiplicand from the product
+Undefined command: "If".  Try "help".
+(gdb) If negative, it does something to the product. If the multiplier was negatiive, it subtracts the multiplicand from the product
+Undefined command: "If".  Try "help".
+(gdb) Negative here is not true:
+Undefined command: "Negative".  Try "help".
+(gdb) p/d $w23
+$2 = 0
+(gdb) See
+Undefined command: "See".  Try "help".
+(gdb) So, we should see no examp[K[K[K[K[Kchange in the produc[K[K[K[K[K[Kproduct w21
+Undefined command: "So".  Try "help".
+(gdb) So, we should see no change in the product w21
+Undefined command: "So".  Try "help".
+(gdb) c
+Continuing.
+
+Breakpoint 8, 0x00000000004006a8 in multiDuctPrint ()
+1: x/i $pc
+=> 0x4006a8 <multiDuctPrint>:	adrp	x0, 0x400000
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+5: /d $w22 = 32
+(gdb) No change. Here, this is just printing.[K the multiplier and multipli[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kproduct and multiplier
+Undefined command: "No".  Try "help".
+(gdb) display/x $w[K19[K[K21
+6: /x $21 = <error: History has not yet reached $21.>
+(gdb) display/x $21w21
+7: /x $w21 = 0xfffffffa
+(gdb) display/x $w21[C[C[K[K19
+8: /x $w19 = 0xcb080000
+(gdb) Product and multiplier is sh[K[Kwhat should be printed
+Undefined command: "Product".  Try "help".
+(gdb) c
+Continuing.
+product = 0xfffffffa multiplier = 0xcb080000
+
+Breakpoint 9, 0x00000000004006bc in formatLong ()
+1: x/i $pc
+=> 0x4006bc <formatLong>:	mov	w25, w21
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+5: /d $w22 = 32
+6: /x $21 = <error: History has not yet reached $21.>
+7: /x $w21 = 0xfffffffa
+8: /x $w19 = 0xcb080000
+(gdb) C[KSee 7 and product, 8 and multiplier? It is correct.
+Undefined command: "See".  Try "help".
+(gdb) undisplay 5
+(gdb) undisplay 5[K6
+(gdb) undisplay 6[K7
+(gdb) undisplay 7[K8
+(gdb) Here we are formatting the longs. We need to show the temps and result
+Undefined command: "Here".  Try "help".
+(gdb) display/b x24
+No symbol "x24" in current context.
+(gdb) display/b x24$x24
+9: x/xb $x24  0x0:	<error: Cannot access memory at address 0x0>
+(gdb) display/b $x24[C[K5
+10: x/xb $x25  0x0:	<error: Cannot access memory at address 0x0>
+(gdb) display/b $x25[K6
+11: x/xb $x26  0x0:	<error: Cannot access memory at address 0x0>
+(gdb) ni
+0x00000000004006c0 in formatLong ()
+1: x/i $pc
+=> 0x4006c0 <formatLong+4>:	and	x25, x25, #0xffffffff
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+9: x/xb $x24  0x0:	<error: Cannot access memory at address 0x0>
+10: x/xb $x25  0xfffffffa:	<error: Cannot access memory at address 0xfffffffa>
+11: x/xb $x26  0x0:	<error: Cannot access memory at address 0x0>
+(gdb) ni
+0x00000000004006c4 in formatLong ()
+1: x/i $pc
+=> 0x4006c4 <formatLong+8>:	lsl	x25, x25, #32
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+9: x/xb $x24  0x0:	<error: Cannot access memory at address 0x0>
+10: x/xb $x25  0xfffffffa:	<error: Cannot access memory at address 0xfffffffa>
+11: x/xb $x26  0x0:	<error: Cannot access memory at address 0x0>
+(gdb) nidisplay/b $x2656[C[C[C[C[C[Cni[K[K[Kundisplay 9
+(gdb) undisplay 910[K[K[K10
+(gdb) undisplay 10[K[K11
+(gdb) display/b $x24
+12: x/xb $x24  0x0:	<error: Cannot access memory at address 0x0>
+(gdb) rm[K[Kdispl[K[K[K[K[Kundisplay 12
+(gdb) print[Kt/b $x21[K4
+Size letters are meaningless in "print" command.
+(gdb) print/b $x24[1P[1P[1P[1P
+Size letters are meaningless in "print" command.
+(gdb) p/b $x24[1P $x24t $x24
+$3 = 0
+(gdb) Ah, that's my mistake, one sec
+Undefined command: "Ah".  Try "help".
+(gdb) display/t $24x24
+13: /t $x24 = 0
+(gdb) display/t $x24[K5
+14: /t $x25 = 11111111111111111111111111111010
+(gdb) display/t $x25[K6
+15: /t $x26 = 0
+(gdb) ni
+0x00000000004006c8 in formatLong ()
+1: x/i $pc
+=> 0x4006c8 <formatLong+12>:	mov	w26, w19
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+13: /t $x24 = 0
+14: /t $x25 = 1111111111111111111111111111101000000000000000000000000000000000
+15: /t $x26 = 0
+(gdb) ni
+0x00000000004006cc in formatLong ()
+1: x/i $pc
+=> 0x4006cc <formatLong+16>:	and	x26, x26, #0xffffffff
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+13: /t $x24 = 0
+14: /t $x25 = 1111111111111111111111111111101000000000000000000000000000000000
+15: /t $x26 = 11001011000010000000000000000000
+(gdb) ni
+0x00000000004006d0 in formatLong ()
+1: x/i $pc
+=> 0x4006d0 <formatLong+20>:	add	x24, x25, x26
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+13: /t $x24 = 0
+14: /t $x25 = 1111111111111111111111111111101000000000000000000000000000000000
+15: /t $x26 = 11001011000010000000000000000000
+(gdb) Resyk[K[Kult is x24, temps are 26 and 25
+Undefined command: "Result".  Try "help".
+(gdb) Result is x24, temps are 26 and 25
+Undefined command: "Result".  Try "help".
+(gdb) ni
+
+Breakpoint 10, 0x00000000004006d4 in longPrint ()
+1: x/i $pc
+=> 0x4006d4 <longPrint>:	adrp	x0, 0x400000
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+13: /t $x24 = 1111111111111111111111111111101011001011000010000000000000000000
+14: /t $x25 = 1111111111111111111111111111101000000000000000000000000000000000
+15: /t $x26 = 11001011000010000000000000000000
+(gdb) ni
+0x00000000004006d8 in longPrint ()
+1: x/i $pc
+=> 0x4006d8 <longPrint+4>:	add	x0, x0, #0x600
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+13: /t $x24 = 1111111111111111111111111111101011001011000010000000000000000000
+14: /t $x25 = 1111111111111111111111111111101000000000000000000000000000000000
+15: /t $x26 = 11001011000010000000000000000000
+(gdb) And now a[Kwe are onto print
+Undefined command: "And".  Try "help".
+(gdb) display/d $x24
+16: /d $x24 = -22363504640
+(gdb) This is the calculated result
+Undefined command: "This".  Try "help".
+(gdb) ni
+0x00000000004006dc in longPrint ()
+1: x/i $pc
+=> 0x4006dc <longPrint+8>:	mov	x1, x24
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+13: /t $x24 = 1111111111111111111111111111101011001011000010000000000000000000
+14: /t $x25 = 1111111111111111111111111111101000000000000000000000000000000000
+15: /t $x26 = 11001011000010000000000000000000
+16: /d $x24 = -22363504640
+(gdb) ni
+0x00000000004006e0 in longPrint ()
+1: x/i $pc
+=> 0x4006e0 <longPrint+12>:	mov	x2, x24
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+13: /t $x24 = 1111111111111111111111111111101011001011000010000000000000000000
+14: /t $x25 = 1111111111111111111111111111101000000000000000000000000000000000
+15: /t $x26 = 11001011000010000000000000000000
+16: /d $x24 = -22363504640
+(gdb) ni
+0x00000000004006e4 in longPrint ()
+1: x/i $pc
+=> 0x4006e4 <longPrint+16>:	bl	0x400490 <printf@plt>
+2: /t $w19 = 11001011000010000000000000000000
+3: /t $w20 = 11011110101011010000000000000000
+4: /t $w21 = 11111111111111111111111111111010
+13: /t $x24 = 1111111111111111111111111111101011001011000010000000000000000000
+14: /t $x25 = 1111111111111111111111111111101000000000000000000000000000000000
+15: /t $x26 = 11001011000010000000000000000000
+16: /d $x24 = -22363504640
+(gdb) c
+Continuing.
+64-bit result = 0xfffffffacb080000 (-22363504640)
+[Inferior 1 (process 14473) exited with code 062]
+(gdb) x24 for[K[K[Kgor pr[K[K[K[Kt printed.
+Undefined command: "x24".  Try "help".
+(gdb) x24 got printed.
+Undefined command: "x24".  Try "help".
+(gdb) Is it right? [K[K[K[K[K[K[K[K[K[K[K[K[KChecking, it is right
+Undefined command: "Checking".  Try "help".
+(gdb) Checking, it is right
+Undefined command: "Checking".  Try "help".
+(gdb) We are done
+Undefined command: "We".  Try "help".
+(gdb) quit
+]0;john.ngo@csa2:~/355john.ngo@csa2:~/355$ exit
+exit
+
+Script done on 2018-05-30 11:51:28-0600

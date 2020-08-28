@@ -1,0 +1,214 @@
+Script started on 2018-05-23 17:28:44-0600
+]0;john.ngo@csa1:~/355john.ngo@csa1:~/355$ gdb a1a,e[K[K.exe
+GNU gdb (GDB) Fedora 8.0-13.fc26
+Copyright (C) 2017 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a1a.exe...(no debugging symbols found)...done.
+(gdb) display/i $pc
+1: x/i $pc
+<error: No registers.>
+(gdb) break *main
+Breakpoint 1 at 0x400628
+(gdb) run
+Starting program: /home/ugc/john.ngo/355/a1a.exe 
+
+Breakpoint 1, 0x0000000000400628 in main ()
+1: x/i $pc
+=> 0x400628 <main>:	stp	x29, x30, [sp, #-16]!
+(gdb) ni
+0x000000000040062c in main ()
+1: x/i $pc
+=> 0x40062c <main+4>:	mov	x29, sp
+(gdb) ni
+0x0000000000400630 in prep ()
+1: x/i $pc
+=> 0x400630 <prep>:	mov	x21, #0xffffffffffffd8f1    	// #-9999
+(gdb) p $x21
+$1 = 4195488
+(gdb) ni
+0x0000000000400634 in loopStart ()
+1: x/i $pc
+=> 0x400634 <loopStart>:	mov	x19, #0xfffffffffffffffc    	// #-4
+(gdb) nip $x21
+$2 = -9999
+(gdb) This is important; this register is meant for the largest stored value. It  is being set to an arbitrary low value right now; previously it had a hi[K[K[Kn insanely  high value, breaking it. We are initiati[K[Klizing this register.
+Undefined command: "This".  Try "help".
+(gdb) ni
+0x0000000000400638 in loopPretest ()
+1: x/i $pc
+=> 0x400638 <loopPretest>:	cmp	x19, #0x3
+(gdb) Note that x19 is the x variable register. It has been initialized to -4, s ince we are going from -4 to 3
+Undefined command: "Note".  Try "help".
+(gdb) p $x19
+$3 = -4
+(gdb) [K(gdb) ni
+0x000000000040063c in loopPretest ()
+1: x/i $pc
+=> 0x40063c <loopPretest+4>:	b.gt	0x4006a0 <finalReport>
+(gdb) This is a pretest loop. If we fin we[K[K[Kd that we have exceeded it, then we skip the loop and head to the final report.
+Undefined command: "This".  Try "help".
+(gdb) ni
+0x0000000000400640 in loopCalc ()
+1: x/i $pc
+=> 0x400640 <loopCalc>:	mov	x20, #0xa                   	// #10
+(gdb) ni
+0x0000000000400644 in loopCalc ()
+1: x/i $pc
+=> 0x400644 <loopCalc+4>:	mov	x23, #0xffffffffffffffec    	// #-20
+(gdb) p $x20
+$4 = 10
+(gdb) x20 right now should have the value of the rightmost term. As the valculation c[Kgoes on, we will accumulate the value of the terms into it
+Undefined command: "x20".  Try "help".
+(gdb) ni
+0x0000000000400648 in loopCalc ()
+1: x/i $pc
+=> 0x400648 <loopCalc+8>:	mul	x22, x19, x23
+(gdb) ni
+0x000000000040064c in loopCalc ()
+1: x/i $pc
+=> 0x40064c <loopCalc+12>:	add	x20, x20, x22
+(gdb) p $s[Kx22
+$5 = 80
+(gdb) 80 is the value of -20 * -4. Makes sense. This is the second rightmost term now, evaluating for x = -4
+Undefined command: "80".  Try "help".
+(gdb) ni
+0x0000000000400650 in loopCalc ()
+1: x/i $pc
+=> 0x400650 <loopCalc+16>:	mul	x22, x19, x19
+(gdb) p $x20
+$6 = 90
+(gdb) 80 + 10, yes
+Undefined command: "80".  Try "help".
+(gdb) ni
+0x0000000000400654 in loopCalc ()
+1: x/i $pc
+=> 0x400654 <loopCalc+20>:	mov	x23, #0xfffffffffffffff4    	// #-12
+(gdb) ni
+0x0000000000400658 in loopCalc ()
+1: x/i $pc
+=> 0x400658 <loopCalc+24>:	mul	x22, x22, x23
+(gdb) ni
+0x000000000040065c in loopCalc ()
+1: x/i $pc
+=> 0x40065c <loopCalc+28>:	add	x20, x20, x22
+(gdb) ni
+0x0000000000400660 in loopCalc ()
+1: x/i $pc
+=> 0x400660 <loopCalc+32>:	mul	x22, x19, x19
+(gdb) ni
+0x0000000000400664 in loopCalc ()
+1: x/i $pc
+=> 0x400664 <loopCalc+36>:	mul	x22, x22, x19
+(gdb) ni
+0x0000000000400668 in loopCalc ()
+1: x/i $pc
+=> 0x400668 <loopCalc+40>:	mov	x23, #0x5                   	// #5
+(gdb) ni
+0x000000000040066c in loopCalc ()
+1: x/i $pc
+=> 0x40066c <loopCalc+44>:	mul	x22, x22, x23
+(gdb) ni
+0x0000000000400670 in loopCalc ()
+1: x/i $pc
+=> 0x400670 <loopCalc+48>:	add	x20, x20, x22
+(gdb) ni
+0x0000000000400674 in loopLargest ()
+1: x/i $pc
+=> 0x400674 <loopLargest>:	cmp	x20, x21
+(gdb) x2[K[Kp $x23
+$7 = 5
+(gdb) This register is being used to store the multiplicative coefficienc[Kts
+Undefined command: "This".  Try "help".
+(gdb) p $20
+History has not yet reached $20.
+(gdb) p $20x20
+$8 = -422
+(gdb) This is the overall value as evaluated for -4 as x
+Undefined command: "This".  Try "help".
+(gdb) p $20[K[Kx20[K1
+$9 = -9999
+(gdb) This is our largest so far
+Undefined command: "This".  Try "help".
+(gdb) ni
+0x0000000000400678 in loopLargest ()
+1: x/i $pc
+=> 0x400678 <loopLargest+4>:	b.le	0x400680 <loopPrint>
+(gdb) ni
+0x000000000040067c in loopLargest ()
+1: x/i $pc
+=> 0x40067c <loopLargest+8>:	mov	x21, x20
+(gdb) ni
+0x0000000000400680 in loopPrint ()
+1: x/i $pc
+=> 0x400680 <loopPrint>:	adrp	x0, 0x400000
+(gdb) x[Kp[Kp $21x21
+$10 = -422
+(gdb) Now our largest so far is -422, as expected
+Undefined command: "Now".  Try "help".
+(gdb) Next is just the printing stuff
+Undefined command: "Next".  Try "help".
+(gdb) ni
+0x0000000000400684 in loopPrint ()
+1: x/i $pc
+=> 0x400684 <loopPrint+4>:	add	x0, x0, #0x5a4
+(gdb) ni
+0x0000000000400688 in loopPrint ()
+1: x/i $pc
+=> 0x400688 <loopPrint+8>:	mov	x1, x19
+(gdb) ni
+0x000000000040068c in loopPrint ()
+1: x/i $pc
+=> 0x40068c <loopPrint+12>:	mov	x2, x20
+(gdb) ni
+0x0000000000400690 in loopPrint ()
+1: x/i $pc
+=> 0x400690 <loopPrint+16>:	mov	x3, x21
+(gdb) The printed message has 3 parameters - x1 should be the x value, x2 the y value, and x3 the largest so far
+Undefined command: "The".  Try "help".
+(gdb) p $x`[K1
+$11 = -4
+(gdb) p $x1[K2
+$12 = -422
+(gdb) p $x2[K3
+$13 = 4195880
+(gdb) Almost as expected, one sec let the next instruction run
+Undefined command: "Almost".  Try "help".
+(gdb) ni
+0x0000000000400694 in loopPrint ()
+1: x/i $pc
+=> 0x400694 <loopPrint+20>:	bl	0x400490 <printf@plt>
+(gdb) niAlmost as expected, one sec let the next instruction run[C[C[C[C[C[Cp $x3[K
+$14 = -422
+(gdb) There
+Undefined command: "There".  Try "help".
+(gdb) ni
+The current x value is -4, the current y value is -422, and the biggest value so far is -422.
+The current x value is -3, the current y value is -173, and the biggest value so far is -173.
+The current x value is -2, the current y value is -38, and the biggest value so far is -38.
+The current x value is -1, the current y value is 13, and the biggest value so far is 13.
+The current x value is 0, the current y value is 10, and the biggest value so far is 13.
+The current x value is 1, the current y value is -17, and the biggest value so far is 13.
+The current x value is 2, the current y value is -38, and the biggest value so far is 13.
+The current x value is 3, the current y value is -23, and the biggest value so far is 13.
+The largest discovered value was: 13.
+[Inferior 1 (process 14308) exited with code 046]
+(gdb) That is how this program runs though one loop.
+Undefined command: "That".  Try "help".
+(gdb) We are done here.
+Undefined command: "We".  Try "help".
+(gdb) e[Kquit
+]0;john.ngo@csa1:~/355john.ngo@csa1:~/355$ exit
+exit
+
+Script done on 2018-05-23 17:39:21-0600

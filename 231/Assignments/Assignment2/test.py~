@@ -1,0 +1,4 @@
+while True:
+    print("Hi")
+    input("Hit enter to continue.")
+    print("\033c")

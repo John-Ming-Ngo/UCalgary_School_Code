@@ -1,0 +1,13 @@
+Script started on Thu 22 Sep 2016 03:30:39 PM MDT
+]777;notify;Command completed;exit]0;john.ngo@zone07-wd:~/Desktop]7;file://zone07-wd/home/ugc/john.ngo/Desktop[33m[1mjohn.ngo(B[m@[32m[1mzone07-wd(B[m:[34m[1m~/Desktop(B[m$ cat NameInputProgram.py
+print("I shall be asking for your name soon.")
+inputName = input("What is your name? ")
+print(inputName, "is a nice name! Here's fifteen points.")
+]777;notify;Command completed;cat NameInputProgram.py]0;john.ngo@zone07-wd:~/Desktop]7;file://zone07-wd/home/ugc/john.ngo/Desktop[33m[1mjohn.ngo(B[m@[32m[1mzone07-wd(B[m:[34m[1m~/Desktop(B[m$ python3 I[KNameInputProgram.py
+I shall be asking for your name soon.
+What is your name? John
+John is a nice name! Here's fifteen points.
+]777;notify;Command completed;python3 NameInputProgram.py]0;john.ngo@zone07-wd:~/Desktop]7;file://zone07-wd/home/ugc/john.ngo/Desktop[33m[1mjohn.ngo(B[m@[32m[1mzone07-wd(B[m:[34m[1m~/Desktop(B[m$ exit
+exit
+
+Script done on Thu 22 Sep 2016 03:31:11 PM MDT

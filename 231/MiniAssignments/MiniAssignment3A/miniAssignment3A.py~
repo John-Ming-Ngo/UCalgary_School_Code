@@ -1,0 +1,8 @@
+import random
+randomNumber = random.randrange(1,101)
+def completeCode(secureNumber):
+    secureNumber = str(secureNumber)
+    userInput = input("Enter your desired password character component here.")
+    newPassword = secureNumber + userInput
+    print("Your new password is: ", newPassword)
+completeCode(randomNumber)

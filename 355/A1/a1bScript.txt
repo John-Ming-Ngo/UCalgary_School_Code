@@ -1,0 +1,60 @@
+Script started on 2018-05-23 17:57:42-0600
+]0;john.ngo@csa1:~/355john.ngo@csa1:~/355$ gdb a1b.exe
+GNU gdb (GDB) Fedora 8.0-13.fc26
+Copyright (C) 2017 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a1b.exe...(no debugging symbols found)...done.
+(gdb) break finalReport*[K*finalReport
+Breakpoint 1 at 0x400694
+(gdb) display/i $pc
+1: x/i $pc
+<error: No registers.>
+(gdb) Due to unclear instructions, I have set the break p[K[Kpoint at the location where the final result has just been r[Ktabulated, and yet to be printed
+Undefined command: "Due".  Try "help".
+(gdb) run
+Starting program: /home/ugc/john.ngo/355/a1b.exe 
+The current x value is -4, the current y value is -422, and the biggest value so far is -422.
+The current x value is -3, the current y value is -173, and the biggest value so far is -173.
+The current x value is -2, the current y value is -38, and the biggest value so far is -38.
+The current x value is -1, the current y value is 13, and the biggest value so far is 13.
+The current x value is 0, the current y value is 10, and the biggest value so far is 13.
+The current x value is 1, the current y value is -17, and the biggest value so far is 13.
+The current x value is 2, the current y value is -38, and the biggest value so far is 13.
+The current x value is 3, the current y value is -23, and the biggest value so far is 13.
+
+Breakpoint 1, 0x0000000000400694 in finalReport ()
+1: x/i $pc
+=> 0x400694 <finalReport>:	adrp	x0, 0x400000
+(gdb) ni
+0x0000000000400698 in finalReport ()
+1: x/i $pc
+=> 0x400698 <finalReport+4>:	add	x0, x0, #0x600
+(gdb) ni
+0x000000000040069c in finalReport ()
+1: x/i $pc
+=> 0x40069c <finalReport+8>:	mov	x1, x21
+(gdb) ni
+0x00000000004006a0 in finalReport ()
+1: x/i $pc
+=> 0x4006a0 <finalReport+12>:	bl	0x400490 <printf@plt>
+(gdb) ni
+The biggest value discovered is 13.
+[Inferior 1 (process 15548) exited with code 044]
+(gdb) That there was the printing process. The largest value s[Kdiscovered was 13.
+Undefined command: "That".  Try "help".
+(gdb) quit
+]0;john.ngo@csa1:~/355john.ngo@csa1:~/355$ exit
+exit
+
+Script done on 2018-05-23 17:59:17-0600

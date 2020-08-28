@@ -1,0 +1,9 @@
+import random
+
+minGrade = 0
+maxGrade = 100
+
+print("Generates grades for a class of five students.")
+for numberOfStudents in range(0,5):
+    grade = random.randrange(minGrade, (maxGrade+1))
+    print("Grade for student: %d" %grade)
