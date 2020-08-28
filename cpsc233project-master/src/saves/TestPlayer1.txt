@@ -1,0 +1,21 @@
+Username: Test Player 1
+Phrase: 
+Initial Money: 250000.00
+Current Money: 32070.12
+Investments: 
+     STOCK :         VZ : 200       
+     STOCK :         PG : 50        
+     METAL :       GOLD : 0         
+     METAL :   PLATINUM : 100       
+   BITCOIN :    BitCoin : 1150      
+     METAL :     SILVER : 200       
+     METAL :  PALLADIUM : 100       
+     STOCK :        UNH : 100       
+     STOCK :        DIS : 0         
+     STOCK :       AAPL : 0         
+Start Date: 2010-02-01
+Current Turn: 3
+Interval Length: 7
+Turns to Play: 52
+Stock Index: ^DJI
+Stock Name List: djia_list.lst

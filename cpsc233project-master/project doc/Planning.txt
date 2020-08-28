@@ -1,0 +1,117 @@
+Project: Stock market simulator.
+Plan Version: 1.0.0
+Author: John Ngo, credits to Jason DeBoer for the menus idea.
+
+
+Menu:
+- New Game.
+- Load Game.
+- Options.
+- Credits.
+
+- New game will present a new account creation screen:
+	- Name
+	- Account Size/Starting Money
+	- Online/Offline Play
+	- If Offline: Random or Historical
+	- If Historical: From Which Start Date
+	- Game termination date
+	
+	- It will output these selections into a new save file under the account name.
+	- It will then proceed to call upon the load game function onto this new file.
+
+- Load Game:
+	- Load game will be a function or a class which takes info in the user save file and processes it.
+	- After processing the information, the load game file will proceed to the game screen. 
+
+- User save file format:
+
+Username:
+
+Witty Phrase:
+
+Initial Money:
+
+Money:
+
+Stocks:
+
+Mode: 
+
+Start Date:
+
+Current Date:
+
+End Date:
+
+Example:
+
+Username: DarkwarriorJ
+
+Witty Phrase: "Bite Hard, Until We're All In Sight."
+
+Initial Money: 100
+
+Money: 1000000
+
+Stocks:
+APPL		100
+GREN		442
+ZORB		100021
+
+Mode: Randomized
+
+Start Date: 1999/02/20
+
+Current Date: 2011/03/11
+
+End Date: 41999/01/01
+
+- Game Screen:
+
+	- Check Account
+	- Market Data Browser w/Search Function (Sorta like a server browser for a steam game!)
+	- Detailed inspection
+	- Next Day (Disabled on Online Mode, maybe replaced by performance relative to X time interval instead?)
+
+	- Screen will Display a list of stocks (say 100 of them) by name, price and performance relative to last day/hour on the market.
+	- Another button will flip the list display from buy to sell, displaying owned stocks by 
+	- A bar at the top will display avaliable fluid money.
+	- At the bottom will be the next turn button, and detailed inspection button for any selected stock.
+
+- Check Account Screen:
+	- Will display fluid money, stocks owned, and total net worth as calculated by fluid money + stocks * stock prices.
+	- Will also profile picture and % worth increased/decreased relative to one's starting money.
+	- Will allow players to adjust their witty motto. Similar for their username, but at some exorbant fee, just because government bureaucracy.
+	- Will allow the player to fiddle with and adjust the end date for their game, no earlier than current date, and no later than data end date if historical data game.
+
+- Detailed inspection screen:
+	- Draws data on relevant selected stock, displaying:
+		- Name
+		- Current Market Price
+		- Relevant News Clippings?
+		- Graph of performance for say, 100 time units past to now.
+
+- Next turn:
+	- Is just button, but many things happen once the button is clicked.
+	- 1. Summary of changes in portfolio
+	- 2. Random events maybe? Such as:
+		- 1. Death of a loved one. Funeral costs - 10000 cash
+		- 2. Fell for Nigerian Scam. - 100000 cash.
+		- 3. Turned out to be long lost son of Warren Buffet. +100000 cash.
+		- 4. Catastrophic car crash. - 1000000 hospital bills, +10 days advancement time.
+		- 5. Your brother walked away with all your cash. - All fluid money.
+		- 6. Transaction error. - X number of some given stock.
+		- 7. Transaction error. + X number of some given stock...
+		- Far more possibilities on random mode.
+
+
+QUESTIONS/NOTES:
+
+	- Aren't stock market buy/sells not always instant? Like, aren't they a bidding process? In that case, should we model that? Say, if the going price is $100, and we put in a bid for $90, we model that rather than instantly buying it, we have a 80% chance of not managing to buy it that turn? We'll need a current bids section in the save file and in our account and in the next turn random event, but this is a possibility.
+
+	- This has not yet split things up into classes yet, but here's what I imagine:
+		- The core classes of this program will be the UserAccount class. It will hold the values for amount of user money, user stocks, current bids etc. It will contain functions for calculating net worth, adjusting user name/profile picture/witty remark, etc. Depending on what this class means by encapsulation, the functions for the likeliness of the bids succeeding will also go here.
+		- There will probably be another class called Stock, responsible for querying and determining the value of the stock... Actually now that I write this down, the actual splitting into classes is not as clear as I thought of. This will take more thinking. 
+	
+

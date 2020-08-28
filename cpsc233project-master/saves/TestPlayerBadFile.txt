@@ -1,0 +1,14 @@
+Username: TestPlayer3
+Phrase: 
+Initial Money: 250000.00
+Current Money: -12345
+Investments: 
+   BITCOIN :    BitCoin : 100     
+     METAL :       GOLD : 200       
+     STOCK :     AAV.TO : 800       
+Start Date: 2010-02-01
+Current Turn: 54
+Interval Length: 7
+Turns to Play: 52
+Stock Index: ^GSPC
+Stock Name List: tsxcomp_list.lst

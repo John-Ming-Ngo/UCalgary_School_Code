@@ -1,0 +1,11 @@
+Username: OldData
+Phrase: 
+Initial Money: 250000.00
+Current Money: 250000.00
+Investments: 
+Start Date: 1985-02-01
+Current Turn: 0
+Interval Length: 7
+Turns to Play: 52
+Stock Index: ^DJI
+Stock Name List: djia_list.lst

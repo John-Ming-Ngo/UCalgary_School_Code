@@ -1,0 +1,439 @@
+import java.util.ArrayList;
+
+//import java.io.*;
+
+/**
+ * This class represents the player in the stock market simulation game.
+ * 
+ * @Author Team 13 (John Ngo, Bob Rao, Huidong Lu, Jason De Boer
+ * 
+ * @Version 1.0.0 06 Feb 2017
+ * 
+ * */
+public class Player {
+
+	/**
+	 * Initialize attributes.
+	 */
+	private String userName = "";
+	private String wittyPhrase = "";
+	private double initialMoney = 0.0;
+	private double currentMoney = 0.0;
+	private ArrayList<Stock> stockList = new ArrayList<Stock>();
+
+	/**
+	 * Constructor methods
+	 */
+	public Player() {
+		userName = "";
+		wittyPhrase = "";
+		initialMoney = 0.0;
+		currentMoney = 0.0;
+		ArrayList<Stock> listStocks = new ArrayList<Stock>();
+		stockList = listStocks;
+	}
+
+	/**
+	 * Constructor method
+	 * 
+	 * @param name
+	 *            The users name
+	 * @param phrase
+	 *            a tagline the user wants to display
+	 * @param initialShekels
+	 *            current starting account balance
+	 * @param currentShekels
+	 *            current account balance
+	 * @param listStocks
+	 *            a list of the current stocks a player has
+	 * 
+	 */
+	public Player(String name, String phrase, double initialShekels,
+		double currentShekels, ArrayList<Stock> listStocks) {
+		userName = name;
+		wittyPhrase = phrase;
+		initialMoney = initialShekels;
+		currentMoney = currentShekels;
+		stockList = listStocks;
+	}
+	
+	/**
+	* Copy Constructor Method
+	* 
+	* @param targetPlayer An object of type player meant to be the
+	*/
+	public Player(Player targetPlayer) {
+		userName = targetPlayer.getUserName();
+		wittyPhrase = targetPlayer.getWittyPhrase();
+		initialMoney = targetPlayer.getInitialMoney();
+		currentMoney = targetPlayer.getCurrentMoney();
+		stockList = targetPlayer.getStockListArray();
+	}
+
+	/**
+	 * Adds a given stock to the list of owned stocks.
+	 * 
+	 * @param ownedStock
+	 *            A Stock object corresponding to the stock one one apparently
+	 *            owns.
+	 */
+	public void addOwnedStock(Stock ownedStock) {
+		stockList.add(ownedStock);
+	}
+
+	/**
+	 * addStock method - Add a stock to players list of stocks
+	 * 
+	 * @param stockSymbol
+	 *            - Symbol of stock to add
+	 * @param startDate
+	 *            - StartDate of simulation used to get data
+	 * @param intervalLength
+	 *            - Length in Days of interval
+	 * @param numberOfIntervals
+	 *            - Total intervals for simulation length
+	 * 
+	 */
+	public void addStock(String stockSymbol, String startDate,
+			int intervalLength, int numberOfIntervals, int index) {
+
+		stockList.add(new Stock(stockSymbol, startDate, intervalLength,
+				numberOfIntervals, index));
+
+	}
+
+	/**
+	 * Increases the quantity of the stock at the given index in the Stocklist
+	 * If the quantity to be bought exceeds the user's currentMoney in value,
+	 * nothing will be done.
+	 * 
+	 * @param index
+	 *            An integer corresponding to the symbol of the stock to buy.
+	 * @param quantity
+	 *            An integer corresponding to the amount of stock to buy.
+	 * 
+	 * @return An integer indicating status 0-Transaction Failed, 1-Transaction
+	 *         Succeeded, 2-Not enough money to buy stock, 3-stock index out of
+	 *         range
+	 */
+	public int buyStock(int index, int quantity) {
+
+		int status = 0;
+
+		// check if index is in range
+		if (index < stockList.size() && index >= 0) {
+
+			// buy stock if there is sufficient funds
+			if (stockList.get(index).getPrice() * quantity <= currentMoney) {
+				currentMoney -= stockList.get(index).getPrice() * quantity;
+				stockList.get(index).addQuantity(quantity);
+				status = 1;
+			} else {
+				// not enough money in account
+				status = 2;
+			}
+		} else {
+			status = 3;
+		}
+
+		return status;
+	}
+
+	/**
+	 * Increases the quantity of the stock owned and decreases user's
+	 * currentMoney accordingly. It will add the stock to the list if it is not
+	 * already on the list. If the quantity to be bought exceeds the user's
+	 * currentMoney in value, nothing will be done.
+	 * 
+	 * @param symbol
+	 *            A string corresponding to the symbol of the stock to buy.
+	 * @param quantity
+	 *            An integer corresponding to the amount of stock to buy.
+	 */
+	public void buyStock(String symbol, int quantity) {
+		boolean stockOwned = false;
+
+		// when stock is owned -
+		// match the stock symbol to the entry in the stock list and buy stock
+		// if possible
+		for (Stock stockPosition : stockList) {
+			if (stockPosition.getSymbol().matches(symbol)) {
+				stockOwned = true;
+				if (stockPosition.getPrice() * quantity <= currentMoney) {
+					currentMoney -= stockPosition.getPrice() * quantity;
+					stockPosition.addQuantity(quantity);
+				}
+			}
+		}
+
+		// stock is not already owned
+		if (stockOwned == false) {
+			Stock prospectiveStock = new Stock(symbol, quantity);
+			if (prospectiveStock.getPrice() * quantity <= currentMoney) {
+				stockList.add(prospectiveStock);
+				currentMoney -= prospectiveStock.getPrice() * quantity;
+			}
+		}
+	}
+
+	/**
+	 * Returns the current balance of the player
+	 * 
+	 * @return A double corresponding to the money the player started with.
+	 */
+	public double getCurrentMoney() {
+		return currentMoney;
+	}
+
+	/**
+	 * Returns the initial starting balance of the users account
+	 * 
+	 * @return A double corresponding to the money the player started with.
+	 */
+	public double getInitialMoney() {
+		return initialMoney;
+	}
+
+	/**
+	 * Returns an itemized list of stocks as a string
+	 * 
+	 * @return A numbered string listing of each stock
+	 * 
+	 */
+	public String[] getInvestmentList() {
+
+		String[] outputString = new String[stockList.size()];
+		
+		for (int index = 0; index < stockList.size(); index++) {
+			outputString[index] = index + " - " + stockList.get(index).getSymbol() + "\n";
+			//outputString += index + " - " + stockList.get(index).getSymbol()
+			//		+ "\n";
+
+		}
+		return outputString;
+	}
+
+	/**
+	 * Returns the networth of the player as an aggregate of account balance and
+	 * current value of stocks
+	 * 
+	 * @return net worth of players stock value and accounts
+	 * 
+	 */
+	public double getNetWorth() {
+		double netWorth = 0.0;
+		for (Investment stockPosition : stockList) {
+			netWorth += stockPosition.getValue();
+		}
+		netWorth += currentMoney;
+		return netWorth;
+	}
+
+	/**
+	 * Returns a cloned ArrayList that is the ArrayList of stocks the player
+	 * class has.
+	 * 
+	 * @param none
+	 * @return copiedStockList An ArrayList containing Stocks.
+	 */
+	public ArrayList<Stock> getStockListArray() {
+		ArrayList<Stock> copiedStockList = new ArrayList<Stock>();
+		for (Stock stockEntity : stockList) {
+			copiedStockList.add(new Stock(stockEntity));
+		}
+		return copiedStockList;
+
+	}
+
+	/**
+	 * Returns an itemized list of stocks as a string
+	 * 
+	 * @return A numbered string listing of each stock
+	 * 
+	 */
+	public String getStockListReport() {
+
+		String outputString = "";
+		for (int index = 0; index < stockList.size(); index++) {
+//			outputString += index + " - " + stockList.get(index).getSymbol()
+//					+ " Current Price:$ " + stockList.get(index).getPrice()
+//					+ " Qty. Owned:" + stockList.get(index).getQuantity()
+//					+ "\n";
+			outputString += String.format("%-3d %12s  %-15s $%4.2f %-15s %8d\n", index, stockList.get(index).getSymbol(), "Current Price", stockList.get(index).getPrice(), "Owned:", stockList.get(index).getQuantity());
+
+		}
+		return outputString;
+	}
+
+	/**
+	 * Gets userName.
+	 * 
+	 * @return userName A string corresponding to the username of the player.
+	 */
+	public String getUserName() {
+		return userName;
+	}
+
+	/**
+	 * Returns the wittyPhrase defined by the player
+	 * 
+	 * @return A string corresponding to the user's catch phrase.
+	 */
+	public String getWittyPhrase() {
+		return wittyPhrase;
+	}
+
+	/**
+	 * Decreases the quantity of the stock at the given index in the stocklist
+	 * If the quantity to sell exceeds the user's stock quantity nothing will be
+	 * done.
+	 * 
+	 * @param index
+	 *            An integer corresponding to the symbol of the stock to buy.
+	 * @param quantity
+	 *            An integer corresponding to the amount of stock to buy.
+	 * 
+	 * @return A status code 0- Transaction Failed, 1 - Transaction Successful,
+	 *         2 - Not enough stock units to sell, 3 Stock index out of range
+	 */
+	public int sellStock(int index, int quantity) {
+
+		int status = 0;
+
+		// check if index is in range
+		if (index < stockList.size() && index >= 0) {
+
+			// sell stock if there is sufficient quantity
+			if (stockList.get(index).getQuantity() >= quantity) {
+				currentMoney += stockList.get(index).getPrice() * quantity;
+				stockList.get(index).removeQuantity(quantity);
+				status = 1;
+			} else {
+				// not enough stock to sell
+				status = 2;
+			}
+		} else {
+			status = 3;
+		}
+
+		return status;
+	}
+
+	/**
+	 * Decreases the quantity of the stock owned and increases user's
+	 * currentMoney accordingly. It will remove the stock from the list if the
+	 * quantity of the stock hits zero. If the quantity to be sold exceeds the
+	 * amount owned, nothing will be done.
+	 * 
+	 * @param symbol
+	 *            A string corresponding to the symbol of the stock to sell.
+	 * @param quantity
+	 *            An integer corresponding to the amount of stock to sell.
+	 */
+	public void sellStock(String symbol, int quantity) {
+
+		// validate if stock is on the list and amount held is less more than
+		// the quantity to sell
+		for (Stock stockPosition : stockList) {
+			if (stockPosition.getSymbol().matches(symbol)) {
+				if (stockPosition.getQuantity() >= quantity) {
+					currentMoney += stockPosition.getPrice() * quantity;
+					stockPosition.removeQuantity(quantity);
+				}
+			}
+
+			if (stockPosition.getQuantity() == 0) {
+				int stockIndex = stockList.indexOf(stockPosition);
+				stockList.remove(stockIndex);
+			}
+		}
+	}
+
+	/**
+	 * Sets the current account balance of the player
+	 * 
+	 * @param moneyValue
+	 *            A double corresponding to the user's currentMoney value.
+	 */
+	public void setCurrentMoney(double moneyValue) {
+		currentMoney = moneyValue;
+	}
+
+	/**
+	 * Sets the initial account balance for the player
+	 * 
+	 * @param moneyValue
+	 *            A double corresponding to the user's initialMoney value.
+	 */
+	public void setInitialMoney(double moneyValue) {
+		initialMoney = moneyValue;
+	}
+
+	/**
+	 * Sets the player's stockList to a copy of the fed in list of stocks.
+	 * 
+	 * @param listStocks
+	 *            An ArrayList of type Stock
+	 * @return void
+	 */
+	public void setStockList(ArrayList<Stock> listStocks) {
+		ArrayList<Stock> copiedStockList = new ArrayList<Stock>();
+		for (Stock stockEntity : stockList) {
+			copiedStockList.add(new Stock(stockEntity));
+		}
+		stockList = copiedStockList;
+	}
+
+	/**
+	 * Sets the users name.
+	 * 
+	 * @param name
+	 *            A string corresponding to the userName.
+	 */
+	public void setUserName(String name) {
+		if (name.indexOf(":") == -1) {
+			userName = name;
+		}
+	}
+	
+	/**
+	 * Sets wittyPhrase.
+	 * 
+	 * @param phrase
+	 *            A String corresponding to the intended wittyPhrase.
+	 */
+	public void setWittyPhrase(String phrase) {
+		if (phrase.indexOf(":") == -1) {
+			wittyPhrase = phrase;
+		}
+	}
+
+	/**
+	 * updates the portfolio based on the simulation turn
+	 * 
+	 * @param turn
+	 *            the turn to set portfolio prices
+	 * 
+	 * @return status 0-failure, 1-Success, 2-Index out of Range
+	 */
+	public int updatePortfolio(int index) {
+
+		int status = 0;
+
+		// ensure at least one stock exists on the list and index is in range
+		if (stockList.size() > 0 && index >= 0
+				&& index < stockList.get(0).getPriceHistoryLength()) {
+			// iterate through all stocks and update unit prices
+			for (Investment stockPosition : stockList) {
+				stockPosition.updatePrice(index);
+				status = 1;
+			}
+		} else {
+			// index out of range
+			status = 2;
+		}
+
+		return status;
+	}
+
+}

@@ -1,0 +1,1121 @@
+Beginning game...
+Button clicked: Show Scores
+Button clicked: New
+Button clicked: Begin
+Turn:0
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   0.00%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10296.85
+Gain/Loss:0.00 points since start               Gain/Loss:0.00 from last turn
+Button clicked: Advance Turn
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   0.00%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10058.64
+Gain/Loss:-238.21 points since start               Gain/Loss:-238.21 from last turn
+Button clicked: Advance Turn
+Turn:2
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   0.00%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10268.81
+Gain/Loss:-28.04 points since start               Gain/Loss:210.17 from last turn
+Button clicked: Advance Turn
+Turn:3
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   0.00%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10282.41
+Gain/Loss:-14.44 points since start               Gain/Loss:13.60 from last turn
+Button clicked: Advance Turn
+Turn:4
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   0.00%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10405.98
+Gain/Loss:109.13 points since start               Gain/Loss:123.57 from last turn
+Button clicked: Advance Turn
+Turn:5
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   0.00%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10564.38
+Gain/Loss:267.53 points since start               Gain/Loss:158.40 from last turn
+Button clicked: Advance Turn
+Turn:6
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   0.00%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10733.67
+Gain/Loss:436.82 points since start               Gain/Loss:169.29 from last turn
+Button clicked: Advance Turn
+Turn:7
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   0.00%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10836.15
+Gain/Loss:539.30 points since start               Gain/Loss:102.48 from last turn
+Button clicked: Main Menu
+Button clicked: New
+Button clicked: Begin
+Turn:0
+--------------------------------------------------
+  Bank Balance: $      0.00
+     Net Worth: $      0.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   NaN%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10296.85
+Gain/Loss:0.00 points since start               Gain/Loss:0.00 from last turn
+Button clicked: Advance Turn
+Turn:1
+--------------------------------------------------
+  Bank Balance: $      0.00
+     Net Worth: $      0.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   NaN%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10058.64
+Gain/Loss:-238.21 points since start               Gain/Loss:-238.21 from last turn
+Button clicked: Advance Turn
+Turn:2
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$1000.00
+Index: ^DJI           Current Value: 10268.81
+Gain/Loss:-28.04 points since start               Gain/Loss:210.17 from last turn
+Button clicked: Advance Turn
+Turn:3
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10282.41
+Gain/Loss:-14.44 points since start               Gain/Loss:13.60 from last turn
+Button clicked: Advance Turn
+Turn:4
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10405.98
+Gain/Loss:109.13 points since start               Gain/Loss:123.57 from last turn
+Button clicked: Advance Turn
+Turn:5
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10564.38
+Gain/Loss:267.53 points since start               Gain/Loss:158.40 from last turn
+Button clicked: Advance Turn
+Turn:6
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10733.67
+Gain/Loss:436.82 points since start               Gain/Loss:169.29 from last turn
+Button clicked: Advance Turn
+Turn:7
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10836.15
+Gain/Loss:539.30 points since start               Gain/Loss:102.48 from last turn
+Button clicked: Advance Turn
+Turn:8
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10856.63
+Gain/Loss:559.78 points since start               Gain/Loss:20.48 from last turn
+Button clicked: Advance Turn
+Turn:9
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10897.52
+Gain/Loss:600.67 points since start               Gain/Loss:40.89 from last turn
+Button clicked: Advance Turn
+Turn:10
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11123.11
+Gain/Loss:826.26 points since start               Gain/Loss:225.59 from last turn
+Button clicked: Advance Turn
+Turn:11
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11124.92
+Gain/Loss:828.07 points since start               Gain/Loss:1.81 from last turn
+Button clicked: Advance Turn
+Turn:12
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11045.27
+Gain/Loss:748.42 points since start               Gain/Loss:-79.65 from last turn
+Button clicked: Advance Turn
+Turn:13
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10866.83
+Gain/Loss:569.98 points since start               Gain/Loss:-178.44 from last turn
+Button clicked: Advance Turn
+Turn:14
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10896.91
+Gain/Loss:600.06 points since start               Gain/Loss:30.08 from last turn
+Button clicked: Advance Turn
+Turn:15
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10444.37
+Gain/Loss:147.52 points since start               Gain/Loss:-452.54 from last turn
+Button clicked: Advance Turn
+Turn:16
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 9974.45
+Gain/Loss:-322.40 points since start               Gain/Loss:-469.92 from last turn
+Button clicked: Advance Turn
+Turn:17
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10249.54
+Gain/Loss:-47.31 points since start               Gain/Loss:275.09 from last turn
+Button clicked: Advance Turn
+Turn:18
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 9899.25
+Gain/Loss:-397.60 points since start               Gain/Loss:-350.29 from last turn
+Button clicked: Advance Turn
+Turn:19
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10409.46
+Gain/Loss:112.61 points since start               Gain/Loss:510.21 from last turn
+Button clicked: Advance Turn
+Turn:20
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10298.44
+Gain/Loss:1.59 points since start               Gain/Loss:-111.02 from last turn
+Button clicked: Advance Turn
+Turn:21
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 9774.02
+Gain/Loss:-522.83 points since start               Gain/Loss:-524.42 from last turn
+Button clicked: Advance Turn
+Turn:22
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10018.28
+Gain/Loss:-278.57 points since start               Gain/Loss:244.26 from last turn
+Button clicked: Advance Turn
+Turn:23
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10366.72
+Gain/Loss:69.87 points since start               Gain/Loss:348.44 from last turn
+Button clicked: Advance Turn
+Turn:24
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10120.53
+Gain/Loss:-176.32 points since start               Gain/Loss:-246.19 from last turn
+Button clicked: Advance Turn
+Turn:25
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10497.88
+Gain/Loss:201.03 points since start               Gain/Loss:377.35 from last turn
+Button clicked: Advance Turn
+Turn:26
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10680.43
+Gain/Loss:383.58 points since start               Gain/Loss:182.55 from last turn
+Button clicked: Advance Turn
+Turn:27
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10378.83
+Gain/Loss:81.98 points since start               Gain/Loss:-301.60 from last turn
+Button clicked: Advance Turn
+Turn:28
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10415.54
+Gain/Loss:118.69 points since start               Gain/Loss:36.71 from last turn
+Button clicked: Advance Turn
+Turn:29
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10060.06
+Gain/Loss:-236.79 points since start               Gain/Loss:-355.48 from last turn
+Button clicked: Advance Turn
+Turn:30
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10269.47
+Gain/Loss:-27.38 points since start               Gain/Loss:209.41 from last turn
+Button clicked: Advance Turn
+Turn:31
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10387.01
+Gain/Loss:90.16 points since start               Gain/Loss:117.54 from last turn
+Button clicked: Advance Turn
+Turn:32
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10572.73
+Gain/Loss:275.88 points since start               Gain/Loss:185.72 from last turn
+Button clicked: Advance Turn
+Turn:33
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10739.31
+Gain/Loss:442.46 points since start               Gain/Loss:166.58 from last turn
+Button clicked: Advance Turn
+Turn:34
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10835.28
+Gain/Loss:538.43 points since start               Gain/Loss:95.97 from last turn
+Button clicked: Advance Turn
+Turn:35
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10967.65
+Gain/Loss:670.80 points since start               Gain/Loss:132.37 from last turn
+Button clicked: Advance Turn
+Turn:36
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11096.08
+Gain/Loss:799.23 points since start               Gain/Loss:128.43 from last turn
+Button clicked: Advance Turn
+Turn:37
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11107.97
+Gain/Loss:811.12 points since start               Gain/Loss:11.89 from last turn
+Button clicked: Advance Turn
+Turn:38
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11126.28
+Gain/Loss:829.43 points since start               Gain/Loss:18.31 from last turn
+Button clicked: Advance Turn
+Turn:39
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11215.13
+Gain/Loss:918.28 points since start               Gain/Loss:88.85 from last turn
+Button clicked: Advance Turn
+Turn:40
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11357.04
+Gain/Loss:1060.19 points since start               Gain/Loss:141.91 from last turn
+Button clicked: Advance Turn
+Turn:41
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11007.88
+Gain/Loss:711.03 points since start               Gain/Loss:-349.16 from last turn
+Button clicked: Advance Turn
+Turn:42
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11187.28
+Gain/Loss:890.43 points since start               Gain/Loss:179.40 from last turn
+Button clicked: Advance Turn
+Turn:43
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11255.78
+Gain/Loss:958.93 points since start               Gain/Loss:68.50 from last turn
+Button clicked: Advance Turn
+Turn:44
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11372.48
+Gain/Loss:1075.63 points since start               Gain/Loss:116.70 from last turn
+Button clicked: Advance Turn
+Turn:45
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11457.47
+Gain/Loss:1160.62 points since start               Gain/Loss:84.99 from last turn
+Button clicked: Advance Turn
+Turn:46
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11559.49
+Gain/Loss:1262.64 points since start               Gain/Loss:102.02 from last turn
+Button clicked: Advance Turn
+Turn:47
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11585.38
+Gain/Loss:1288.53 points since start               Gain/Loss:25.89 from last turn
+Button clicked: Advance Turn
+Turn:48
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11722.89
+Gain/Loss:1426.04 points since start               Gain/Loss:137.51 from last turn
+Button clicked: Advance Turn
+Turn:49
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11755.44
+Gain/Loss:1458.59 points since start               Gain/Loss:32.55 from last turn
+Button clicked: Advance Turn
+Turn:50
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11825.29
+Gain/Loss:1528.44 points since start               Gain/Loss:69.85 from last turn
+Button clicked: Advance Turn
+Turn:51
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 11985.44
+Gain/Loss:1688.59 points since start               Gain/Loss:160.15 from last turn
+Button clicked: Advance Turn
+Turn:52
+--------------------------------------------------
+  Bank Balance: $   1000.00
+     Net Worth: $   1000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$1000.00   Infinity%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 12041.97
+Gain/Loss:1745.12 points since start               Gain/Loss:56.53 from last turn
+Button clicked: Advance Turn
+Turn:53
+--------------------------------------------------
+  Bank Balance: $    800.00
+     Net Worth: $    800.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$800.00   Infinity%
+
+Wealth Gained or lost from last turn:$-200.00
+Index: ^DJI           Current Value: 12239.89
+Gain/Loss:1943.04 points since start               Gain/Loss:197.92 from last turn

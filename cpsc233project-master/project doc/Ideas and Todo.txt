@@ -1,0 +1,27 @@
+Todo: 
+- What's up with the stock names/symbols? Is it possible to simply go with symbols only?
+
+- Comment and brush up on code.
+
+- Implement date pasrsing functions.
+
+- Implement offline mode.
+
+- Implement random mode.
+
+- GUI
+
+	- A graph of stock trends.
+	- Pen and paper draft of the GUI.
+
+- Better reporting (Trending)
+
+- Performance data
+
+Ideas:
+
+- Implement buy/sell chances
+
+- Add dividends/bonds?
+
+- Implement quantity of stock the company has. I mean, if MSFT only offers 1 000 000 stocks and we have 1 trillion... I guess we own the company 1 000 000 times over...

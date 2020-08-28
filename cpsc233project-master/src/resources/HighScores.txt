@@ -1,0 +1,6 @@
+Mr. Big Shot 0.000000  %
+Mr. Big Shot 500.000000  %
+Mr. Big Shot 1000.000000  %
+Mr. Big Shot 5000.000000  %
+Mr. Big Shot 10000.000000  %
+Mr. Big Shot Infinity  %

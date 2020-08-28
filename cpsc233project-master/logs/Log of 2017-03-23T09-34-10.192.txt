@@ -1,0 +1,4 @@
+On turn 1 increaseTurn() was called.
+On turn 2 increaseTurn() was called.
+On turn 3 increaseTurn() was called.
+On turn 4 increaseTurn() was called.

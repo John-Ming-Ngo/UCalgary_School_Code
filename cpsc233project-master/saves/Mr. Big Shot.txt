@@ -1,0 +1,15 @@
+Username: Mr. Big Shot
+Phrase: 
+Initial Money: 250000.00
+Current Money: 249973.60
+Investments: 
+     STOCK :        MMM : 550        
+     METAL :       GOLD : 200         
+   BITCOIN :    BitCoin : 400       
+     METAL :     SILVER : 200       
+Start Date: 2010-02-01
+Current Turn: 17
+Interval Length: 7
+Turns to Play: 52
+Stock Index: ^DJI
+Stock Name List: djia_list.lst

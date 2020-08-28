@@ -1,0 +1,2153 @@
+Beginning game...
+Button clicked: New
+Button clicked: Begin
+Turn:0
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   0.00%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10296.85
+Gain/Loss:0.00 points since start               Gain/Loss:0.00 from last turn
+Button clicked: Add Investment
+Button clicked: Add Stock
+Adding Stock: MMM
+Investment Added To List
+Turn:0
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   80.43           0            $      0.00      0.00
+
+Button clicked: Add Precious Metal
+Adding Precious metal: GOLD
+Investment Added To List
+Turn:0
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   80.43           0            $      0.00      0.00
+1   GOLD               $ 1115.25           0            $      0.00      0.00
+
+Button clicked: Add BitCoin
+Adding BitCoin:
+Investment Added To List
+Turn:0
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   80.43           0            $      0.00      0.00
+1   GOLD               $ 1115.25           0            $      0.00      0.00
+2   BitCoin            $    0.07           0            $      0.00      0.00
+
+Button clicked: Done
+Button clicked: Advance Turn
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 250000.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72           0            $      0.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07           0            $      0.00      0.00
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$0.00   0.00%
+
+Wealth Gained or lost from last turn:$0.00
+Index: ^DJI           Current Value: 10058.64
+Gain/Loss:-238.21 points since start               Gain/Loss:-238.21 from last turn
+Button clicked: Buy/Sell Investment
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 242128.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         100            $   7872.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07           0            $      0.00      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 234256.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         200            $  15744.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07           0            $      0.00      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226384.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07           0            $      0.00      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226377.10
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07         100            $      6.90      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226370.20
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07         200            $     13.80      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226363.30
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07         300            $     20.70      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226356.40
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07         400            $     27.60      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226349.50
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07         500            $     34.50      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226342.60
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07         600            $     41.40      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226335.70
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07         700            $     48.30      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226328.80
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07         800            $     55.20      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226321.90
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07         900            $     62.10      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226315.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        1000            $     69.00      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226308.10
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        1100            $     75.90      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226301.20
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        1200            $     82.80      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226294.30
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        1300            $     89.70      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226287.40
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        1400            $     96.60      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226280.50
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        1500            $    103.50      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226273.60
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        1600            $    110.40      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226266.70
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        1700            $    117.30      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226259.80
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        1800            $    124.20      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226252.90
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        1900            $    131.10      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226246.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        2000            $    138.00      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226239.10
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        2100            $    144.90      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226232.20
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        2200            $    151.80      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226225.30
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        2300            $    158.70      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226218.40
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        2400            $    165.60      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226211.50
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        2500            $    172.50      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226204.60
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        2600            $    179.40      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226197.70
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        2700            $    186.30      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226190.80
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        2800            $    193.20      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226183.90
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        2900            $    200.10      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226177.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        3000            $    207.00      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226170.10
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        3100            $    213.90      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226163.20
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        3200            $    220.80      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226156.30
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        3300            $    227.70      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226149.40
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        3400            $    234.60      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226142.50
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        3500            $    241.50      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226135.60
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        3600            $    248.40      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226128.70
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        3700            $    255.30      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226121.80
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        3800            $    262.20      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226114.90
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        3900            $    269.10      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226108.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        4000            $    276.00      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226101.10
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        4100            $    282.90      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226094.20
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        4200            $    289.80      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226087.30
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        4300            $    296.70      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226080.40
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        4400            $    303.60      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226073.50
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        4500            $    310.50      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226066.60
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        4600            $    317.40      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226059.70
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        4700            $    324.30      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226052.80
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        4800            $    331.20      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226045.90
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        4900            $    338.10      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226039.00
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        5000            $    345.00      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226032.10
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        5100            $    351.90      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226025.20
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        5200            $    358.80      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226018.30
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        5300            $    365.70      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226011.40
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        5400            $    372.60      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 226004.50
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        5500            $    379.50      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 225997.60
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        5600            $    386.40      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 225990.70
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        5700            $    393.30      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 225983.80
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        5800            $    400.20      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 225976.90
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50           0            $      0.00    -45.75
+2   BitCoin            $    0.07        5900            $    407.10      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $ 119026.90
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50         100            $ 106950.00    -45.75
+2   BitCoin            $    0.07        5900            $    407.10      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50         200            $ 213900.00    -45.75
+2   BitCoin            $    0.07        5900            $    407.10      0.00
+
+Buying 100
+100 units bought
+Button clicked: Buy Investment
+Turn:1
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 250000.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.72         300            $  23616.00     -1.71
+1   GOLD               $ 1069.50         200            $ 213900.00    -45.75
+2   BitCoin            $    0.07        5900            $    407.10      0.00
+
+Buying 100
+There is not nough money in your account to buy that many
+Button clicked: Advance Turn
+Turn:2
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 260395.50
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   80.47         300            $  24141.00      1.75
+1   GOLD               $ 1119.00         200            $ 223800.00     49.50
+2   BitCoin            $    0.06        5900            $    377.60     -0.01
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$10395.50   4.16%
+
+Wealth Gained or lost from last turn:$10395.50
+Index: ^DJI           Current Value: 10268.81
+Gain/Loss:-28.04 points since start               Gain/Loss:210.17 from last turn
+Button clicked: Advance Turn
+Turn:3
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 256955.76
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   79.71         300            $  23913.00     -0.76
+1   GOLD               $ 1103.00         200            $ 220600.00    -16.00
+2   BitCoin            $    0.06        5900            $    365.86     -0.00
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$6955.76   2.78%
+
+Wealth Gained or lost from last turn:$-3439.74
+Index: ^DJI           Current Value: 10282.41
+Gain/Loss:-14.44 points since start               Gain/Loss:13.60 from last turn
+Button clicked: Advance Turn
+Turn:4
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 264089.96
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   81.13         300            $  24339.00      1.42
+1   GOLD               $ 1136.50         200            $ 227300.00     33.50
+2   BitCoin            $    0.06        5900            $    374.06      0.00
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$14089.96   5.64%
+
+Wealth Gained or lost from last turn:$7134.20
+Index: ^DJI           Current Value: 10405.98
+Gain/Loss:109.13 points since start               Gain/Loss:123.57 from last turn
+Button clicked: Advance Turn
+Turn:5
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 261140.91
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   81.99         300            $  24597.00      0.86
+1   GOLD               $ 1120.50         200            $ 224100.00    -16.00
+2   BitCoin            $    0.06        5900            $    367.02     -0.00
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$11140.91   4.46%
+
+Wealth Gained or lost from last turn:$-2949.04
+Index: ^DJI           Current Value: 10564.38
+Gain/Loss:267.53 points since start               Gain/Loss:158.40 from last turn
+Button clicked: Advance Turn
+Turn:6
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 261446.70
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   82.18         300            $  24654.00      0.19
+1   GOLD               $ 1121.75         200            $ 224350.00      1.25
+2   BitCoin            $    0.06        5900            $    365.80     -0.00
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$11446.70   4.58%
+
+Wealth Gained or lost from last turn:$305.79
+Index: ^DJI           Current Value: 10733.67
+Gain/Loss:436.82 points since start               Gain/Loss:169.29 from last turn
+Button clicked: Advance Turn
+Turn:7
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 255477.49
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   81.61         300            $  24483.00     -0.57
+1   GOLD               $ 1090.75         200            $ 218150.00    -31.00
+2   BitCoin            $    0.13        5900            $    767.59      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$5477.49   2.19%
+
+Wealth Gained or lost from last turn:$-5969.21
+Index: ^DJI           Current Value: 10836.15
+Gain/Loss:539.30 points since start               Gain/Loss:102.48 from last turn
+Button clicked: Advance Turn
+Turn:8
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 260855.60
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   83.57         300            $  25071.00      1.96
+1   GOLD               $ 1115.50         200            $ 223100.00     24.75
+2   BitCoin            $    0.10        5900            $    607.70     -0.03
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$10855.60   4.34%
+
+Wealth Gained or lost from last turn:$5378.11
+Index: ^DJI           Current Value: 10856.63
+Gain/Loss:559.78 points since start               Gain/Loss:20.48 from last turn
+Button clicked: Advance Turn
+Turn:9
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 266459.90
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   83.66         300            $  25098.00      0.09
+1   GOLD               $ 1142.00         200            $ 228400.00     26.50
+2   BitCoin            $    0.15        5900            $    885.00      0.05
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$16459.90   6.58%
+
+Wealth Gained or lost from last turn:$5604.30
+Index: ^DJI           Current Value: 10897.52
+Gain/Loss:600.67 points since start               Gain/Loss:40.89 from last turn
+Button clicked: Advance Turn
+Turn:10
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 269309.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   84.39         300            $  25317.00      0.73
+1   GOLD               $ 1153.75         200            $ 230750.00     11.75
+2   BitCoin            $    0.20        5900            $   1165.25      0.05
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$19309.15   7.72%
+
+Wealth Gained or lost from last turn:$2849.25
+Index: ^DJI           Current Value: 11123.11
+Gain/Loss:826.26 points since start               Gain/Loss:225.59 from last turn
+Button clicked: Advance Turn
+Turn:11
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 268569.90
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   85.70         300            $  25710.00      1.31
+1   GOLD               $ 1143.00         200            $ 228600.00    -10.75
+2   BitCoin            $    0.37        5900            $   2183.00      0.17
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$18569.90   7.43%
+
+Wealth Gained or lost from last turn:$-739.25
+Index: ^DJI           Current Value: 11124.92
+Gain/Loss:828.07 points since start               Gain/Loss:1.81 from last turn
+Button clicked: Advance Turn
+Turn:12
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 272417.42
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   88.24         300            $  26472.00      2.54
+1   GOLD               $ 1161.00         200            $ 232200.00     18.00
+2   BitCoin            $    0.28        5900            $   1668.52     -0.09
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$22417.42   8.97%
+
+Wealth Gained or lost from last turn:$3847.52
+Index: ^DJI           Current Value: 11045.27
+Gain/Loss:748.42 points since start               Gain/Loss:-79.65 from last turn
+Button clicked: Advance Turn
+Turn:13
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 272717.70
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   86.59         300            $  25977.00     -1.65
+1   GOLD               $ 1165.00         200            $ 233000.00      4.00
+2   BitCoin            $    0.28        5900            $   1663.80     -0.00
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$22717.70   9.09%
+
+Wealth Gained or lost from last turn:$300.28
+Index: ^DJI           Current Value: 10866.83
+Gain/Loss:569.98 points since start               Gain/Loss:-178.44 from last turn
+Button clicked: Advance Turn
+Turn:14
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 287155.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   86.44         300            $  25932.00     -0.15
+1   GOLD               $ 1237.50         200            $ 247500.00     72.50
+2   BitCoin            $    0.28        5900            $   1646.10     -0.00
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$37155.00   14.86%
+
+Wealth Gained or lost from last turn:$14437.30
+Index: ^DJI           Current Value: 10896.91
+Gain/Loss:600.06 points since start               Gain/Loss:30.08 from last turn
+Button clicked: Advance Turn
+Turn:15
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 277166.40
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   82.54         300            $  24762.00     -3.90
+1   GOLD               $ 1195.00         200            $ 239000.00    -42.50
+2   BitCoin            $    0.23        5900            $   1327.50     -0.05
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$27166.40   10.87%
+
+Wealth Gained or lost from last turn:$-9988.60
+Index: ^DJI           Current Value: 10444.37
+Gain/Loss:147.52 points since start               Gain/Loss:-452.54 from last turn
+Button clicked: Advance Turn
+Turn:16
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 279570.03
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   79.17         300            $  23751.00     -3.37
+1   GOLD               $ 1212.00         200            $ 242400.00     17.00
+2   BitCoin            $    0.23        5900            $   1342.13      0.00
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$29570.03   11.83%
+
+Wealth Gained or lost from last turn:$2403.63
+Index: ^DJI           Current Value: 9974.45
+Gain/Loss:-322.40 points since start               Gain/Loss:-469.92 from last turn
+Button clicked: Advance Turn
+Turn:17
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 280321.40
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.74         300            $  23622.00     -0.43
+1   GOLD               $ 1215.00         200            $ 243000.00      3.00
+2   BitCoin            $    0.28        5900            $   1622.50      0.05
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$30321.40   12.13%
+
+Wealth Gained or lost from last turn:$751.37
+Index: ^DJI           Current Value: 10249.54
+Gain/Loss:-47.31 points since start               Gain/Loss:275.09 from last turn
+Button clicked: Advance Turn
+Turn:18
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 282777.40
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   74.79         300            $  22437.00     -3.95
+1   GOLD               $ 1233.50         200            $ 246700.00     18.50
+2   BitCoin            $    0.27        5900            $   1563.50     -0.01
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$32777.40   13.11%
+
+Wealth Gained or lost from last turn:$2456.00
+Index: ^DJI           Current Value: 9899.25
+Gain/Loss:-397.60 points since start               Gain/Loss:-350.29 from last turn
+Button clicked: Advance Turn
+Turn:19
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 285010.89
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   80.88         300            $  24264.00      6.09
+1   GOLD               $ 1234.50         200            $ 246900.00      1.00
+2   BitCoin            $    0.30        5900            $   1769.99      0.03
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$35010.89   14.00%
+
+Wealth Gained or lost from last turn:$2233.49
+Index: ^DJI           Current Value: 10409.46
+Gain/Loss:112.61 points since start               Gain/Loss:510.21 from last turn
+Button clicked: Advance Turn
+Turn:20
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 283354.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   80.12         300            $  24036.00     -0.76
+1   GOLD               $ 1226.50         200            $ 245300.00     -8.00
+2   BitCoin            $    0.33        5900            $   1941.10      0.03
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$33354.00   13.34%
+
+Wealth Gained or lost from last turn:$-1656.89
+Index: ^DJI           Current Value: 10298.44
+Gain/Loss:1.59 points since start               Gain/Loss:-111.02 from last turn
+Button clicked: Advance Turn
+Turn:21
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 286933.90
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   78.99         300            $  23697.00     -1.13
+1   GOLD               $ 1244.00         200            $ 248800.00     17.50
+2   BitCoin            $    0.40        5900            $   2360.00      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$36933.90   14.77%
+
+Wealth Gained or lost from last turn:$3579.90
+Index: ^DJI           Current Value: 9774.02
+Gain/Loss:-522.83 points since start               Gain/Loss:-524.42 from last turn
+Button clicked: Advance Turn
+Turn:22
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 277496.60
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   80.52         300            $  24156.00      1.53
+1   GOLD               $ 1193.25         200            $ 238650.00    -50.75
+2   BitCoin            $    0.44        5900            $   2613.70      0.04
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$27496.60   11.00%
+
+Wealth Gained or lost from last turn:$-9437.30
+Index: ^DJI           Current Value: 10018.28
+Gain/Loss:-278.57 points since start               Gain/Loss:244.26 from last turn
+Button clicked: Advance Turn
+Turn:23
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 281341.90
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   83.05         300            $  24915.00      2.53
+1   GOLD               $ 1207.00         200            $ 241400.00     13.75
+2   BitCoin            $    0.50        5900            $   2950.00      0.06
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$31341.90   12.54%
+
+Wealth Gained or lost from last turn:$3845.30
+Index: ^DJI           Current Value: 10366.72
+Gain/Loss:69.87 points since start               Gain/Loss:348.44 from last turn
+Button clicked: Advance Turn
+Turn:24
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 280411.42
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   82.30         300            $  24690.00     -0.75
+1   GOLD               $ 1191.50         200            $ 238300.00    -15.50
+2   BitCoin            $    0.91        5900            $   5344.52      0.41
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$30411.42   12.16%
+
+Wealth Gained or lost from last turn:$-930.48
+Index: ^DJI           Current Value: 10120.53
+Gain/Loss:-176.32 points since start               Gain/Loss:-246.19 from last turn
+Button clicked: Advance Turn
+Turn:25
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 275855.90
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   86.69         300            $  26007.00      4.39
+1   GOLD               $ 1157.00         200            $ 231400.00    -34.50
+2   BitCoin            $    1.08        5900            $   6372.00      0.17
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$25855.90   10.34%
+
+Wealth Gained or lost from last turn:$-4555.52
+Index: ^DJI           Current Value: 10497.88
+Gain/Loss:201.03 points since start               Gain/Loss:377.35 from last turn
+Button clicked: Advance Turn
+Turn:26
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 283566.54
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   88.00         300            $  26400.00      1.31
+1   GOLD               $ 1199.50         200            $ 239900.00     42.50
+2   BitCoin            $    0.88        5900            $   5189.64     -0.20
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$33566.54   13.43%
+
+Wealth Gained or lost from last turn:$7710.64
+Index: ^DJI           Current Value: 10680.43
+Gain/Loss:383.58 points since start               Gain/Loss:182.55 from last turn
+Button clicked: Advance Turn
+Turn:27
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 284007.36
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   84.10         300            $  25230.00     -3.90
+1   GOLD               $ 1205.50         200            $ 241100.00      6.00
+2   BitCoin            $    0.95        5900            $   5600.46      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$34007.36   13.60%
+
+Wealth Gained or lost from last turn:$440.82
+Index: ^DJI           Current Value: 10378.83
+Gain/Loss:81.98 points since start               Gain/Loss:-301.60 from last turn
+Button clicked: Advance Turn
+Turn:28
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 286123.00
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   83.61         300            $  25083.00     -0.49
+1   GOLD               $ 1218.00         200            $ 243600.00     12.50
+2   BitCoin            $    0.91        5900            $   5363.10     -0.04
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$36123.00   14.45%
+
+Wealth Gained or lost from last turn:$2115.64
+Index: ^DJI           Current Value: 10415.54
+Gain/Loss:118.69 points since start               Gain/Loss:36.71 from last turn
+Button clicked: Advance Turn
+Turn:29
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 289111.90
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   80.75         300            $  24225.00     -2.86
+1   GOLD               $ 1237.50         200            $ 247500.00     19.50
+2   BitCoin            $    0.90        5900            $   5310.00     -0.01
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$39111.90   15.64%
+
+Wealth Gained or lost from last turn:$2988.90
+Index: ^DJI           Current Value: 10060.06
+Gain/Loss:-236.79 points since start               Gain/Loss:-355.48 from last turn
+Button clicked: Advance Turn
+Turn:30
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 290330.87
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   81.01         300            $  24303.00      0.26
+1   GOLD               $ 1246.50         200            $ 249300.00      9.00
+2   BitCoin            $    0.79        5900            $   4650.97     -0.11
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$40330.87   16.13%
+
+Wealth Gained or lost from last turn:$1218.97
+Index: ^DJI           Current Value: 10269.47
+Gain/Loss:-27.38 points since start               Gain/Loss:209.41 from last turn
+Button clicked: Advance Turn
+Turn:31
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 292961.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   82.75         300            $  24825.00      1.74
+1   GOLD               $ 1255.00         200            $ 251000.00      8.50
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$42961.15   17.18%
+
+Wealth Gained or lost from last turn:$2630.28
+Index: ^DJI           Current Value: 10387.01
+Gain/Loss:90.16 points since start               Gain/Loss:117.54 from last turn
+Button clicked: Advance Turn
+Turn:32
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 295910.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   84.58         300            $  25374.00      1.83
+1   GOLD               $ 1267.00         200            $ 253400.00     12.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$45910.15   18.36%
+
+Wealth Gained or lost from last turn:$2949.00
+Index: ^DJI           Current Value: 10572.73
+Gain/Loss:275.88 points since start               Gain/Loss:185.72 from last turn
+Button clicked: Advance Turn
+Turn:33
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 301825.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   86.63         300            $  25989.00      2.05
+1   GOLD               $ 1293.50         200            $ 258700.00     26.50
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$51825.15   20.73%
+
+Wealth Gained or lost from last turn:$5915.00
+Index: ^DJI           Current Value: 10739.31
+Gain/Loss:442.46 points since start               Gain/Loss:166.58 from last turn
+Button clicked: Advance Turn
+Turn:34
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 304787.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   87.17         300            $  26151.00      0.54
+1   GOLD               $ 1307.50         200            $ 261500.00     14.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$54787.15   21.91%
+
+Wealth Gained or lost from last turn:$2962.00
+Index: ^DJI           Current Value: 10835.28
+Gain/Loss:538.43 points since start               Gain/Loss:95.97 from last turn
+Button clicked: Advance Turn
+Turn:35
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 313403.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   89.89         300            $  26967.00      2.72
+1   GOLD               $ 1346.50         200            $ 269300.00     39.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$63403.15   25.36%
+
+Wealth Gained or lost from last turn:$8616.00
+Index: ^DJI           Current Value: 10967.65
+Gain/Loss:670.80 points since start               Gain/Loss:132.37 from last turn
+Button clicked: Advance Turn
+Turn:36
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 316978.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   89.14         300            $  26742.00     -0.75
+1   GOLD               $ 1365.50         200            $ 273100.00     19.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$66978.15   26.79%
+
+Wealth Gained or lost from last turn:$3575.00
+Index: ^DJI           Current Value: 11096.08
+Gain/Loss:799.23 points since start               Gain/Loss:128.43 from last turn
+Button clicked: Advance Turn
+Turn:37
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 311777.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   89.47         300            $  26841.00      0.33
+1   GOLD               $ 1339.00         200            $ 267800.00    -26.50
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$61777.15   24.71%
+
+Wealth Gained or lost from last turn:$-5201.00
+Index: ^DJI           Current Value: 11107.97
+Gain/Loss:811.12 points since start               Gain/Loss:11.89 from last turn
+Button clicked: Advance Turn
+Turn:38
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 309147.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   90.37         300            $  27111.00      0.90
+1   GOLD               $ 1324.50         200            $ 264900.00    -14.50
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$59147.15   23.66%
+
+Wealth Gained or lost from last turn:$-2630.00
+Index: ^DJI           Current Value: 11126.28
+Gain/Loss:829.43 points since start               Gain/Loss:18.31 from last turn
+Button clicked: Advance Turn
+Turn:39
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 311826.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   85.30         300            $  25590.00     -5.07
+1   GOLD               $ 1345.50         200            $ 269100.00     21.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$61826.15   24.73%
+
+Wealth Gained or lost from last turn:$2679.00
+Index: ^DJI           Current Value: 11215.13
+Gain/Loss:918.28 points since start               Gain/Loss:88.85 from last turn
+Button clicked: Advance Turn
+Turn:40
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 321111.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   86.25         300            $  25875.00      0.95
+1   GOLD               $ 1390.50         200            $ 278100.00     45.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$71111.15   28.44%
+
+Wealth Gained or lost from last turn:$9285.00
+Index: ^DJI           Current Value: 11357.04
+Gain/Loss:1060.19 points since start               Gain/Loss:141.91 from last turn
+Button clicked: Advance Turn
+Turn:41
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 309821.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   83.95         300            $  25185.00     -2.30
+1   GOLD               $ 1337.50         200            $ 267500.00    -53.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$59821.15   23.93%
+
+Wealth Gained or lost from last turn:$-11290.00
+Index: ^DJI           Current Value: 11007.88
+Gain/Loss:711.03 points since start               Gain/Loss:-349.16 from last turn
+Button clicked: Advance Turn
+Turn:42
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 317034.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   84.66         300            $  25398.00      0.71
+1   GOLD               $ 1372.50         200            $ 274500.00     35.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$67034.15   26.81%
+
+Wealth Gained or lost from last turn:$7213.00
+Index: ^DJI           Current Value: 11187.28
+Gain/Loss:890.43 points since start               Gain/Loss:179.40 from last turn
+Button clicked: Advance Turn
+Turn:43
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 320051.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   86.05         300            $  25815.00      1.39
+1   GOLD               $ 1385.50         200            $ 277100.00     13.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$70051.15   28.02%
+
+Wealth Gained or lost from last turn:$3017.00
+Index: ^DJI           Current Value: 11255.78
+Gain/Loss:958.93 points since start               Gain/Loss:68.50 from last turn
+Button clicked: Advance Turn
+Turn:44
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 319640.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   84.68         300            $  25404.00     -1.37
+1   GOLD               $ 1385.50         200            $ 277100.00      0.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$69640.15   27.86%
+
+Wealth Gained or lost from last turn:$-411.00
+Index: ^DJI           Current Value: 11372.48
+Gain/Loss:1075.63 points since start               Gain/Loss:116.70 from last turn
+Button clicked: Advance Turn
+Turn:45
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 320629.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   85.81         300            $  25743.00      1.13
+1   GOLD               $ 1388.75         200            $ 277750.00      3.25
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$70629.15   28.25%
+
+Wealth Gained or lost from last turn:$989.00
+Index: ^DJI           Current Value: 11457.47
+Gain/Loss:1160.62 points since start               Gain/Loss:84.99 from last turn
+Button clicked: Advance Turn
+Turn:46
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 320552.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   86.72         300            $  26016.00      0.91
+1   GOLD               $ 1387.00         200            $ 277400.00     -1.75
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$70552.15   28.22%
+
+Wealth Gained or lost from last turn:$-77.00
+Index: ^DJI           Current Value: 11559.49
+Gain/Loss:1262.64 points since start               Gain/Loss:102.02 from last turn
+Button clicked: Advance Turn
+Turn:47
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 325664.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   86.76         300            $  26028.00      0.04
+1   GOLD               $ 1412.50         200            $ 282500.00     25.50
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$75664.15   30.27%
+
+Wealth Gained or lost from last turn:$5112.00
+Index: ^DJI           Current Value: 11585.38
+Gain/Loss:1288.53 points since start               Gain/Loss:25.89 from last turn
+Button clicked: Advance Turn
+Turn:48
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 316737.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   86.67         300            $  26001.00     -0.09
+1   GOLD               $ 1368.00         200            $ 273600.00    -44.50
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$66737.15   26.69%
+
+Wealth Gained or lost from last turn:$-8927.00
+Index: ^DJI           Current Value: 11722.89
+Gain/Loss:1426.04 points since start               Gain/Loss:137.51 from last turn
+Button clicked: Advance Turn
+Turn:49
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 319484.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   88.66         300            $  26598.00      1.99
+1   GOLD               $ 1378.75         200            $ 275750.00     10.75
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$69484.15   27.79%
+
+Wealth Gained or lost from last turn:$2747.00
+Index: ^DJI           Current Value: 11755.44
+Gain/Loss:1458.59 points since start               Gain/Loss:32.55 from last turn
+Button clicked: Advance Turn
+Turn:50
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 317924.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   87.96         300            $  26388.00     -0.70
+1   GOLD               $ 1372.00         200            $ 274400.00     -6.75
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$67924.15   27.17%
+
+Wealth Gained or lost from last turn:$-1560.00
+Index: ^DJI           Current Value: 11825.29
+Gain/Loss:1528.44 points since start               Gain/Loss:69.85 from last turn
+Button clicked: Advance Turn
+Turn:51
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 309607.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   89.57         300            $  26871.00      1.61
+1   GOLD               $ 1328.00         200            $ 265600.00    -44.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$59607.15   23.84%
+
+Wealth Gained or lost from last turn:$-8317.00
+Index: ^DJI           Current Value: 11985.44
+Gain/Loss:1688.59 points since start               Gain/Loss:160.15 from last turn
+Button clicked: Advance Turn
+Turn:52
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 309061.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   87.75         300            $  26325.00     -1.82
+1   GOLD               $ 1328.00         200            $ 265600.00    -44.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$59061.15   23.62%
+
+Wealth Gained or lost from last turn:$-546.00
+Index: ^DJI           Current Value: 12041.97
+Gain/Loss:1745.12 points since start               Gain/Loss:56.53 from last turn
+Button clicked: Advance Turn
+Turn:53
+--------------------------------------------------
+  Bank Balance: $  12076.90
+     Net Worth: $ 309970.15
+
+
+Stock List:
+#       Name             Curr. Price  Amt. Owned          Curr. Val   Gain/Loss   
+0   MMM                $   90.78         300            $  27234.00      3.03
+1   GOLD               $ 1328.00         200            $ 265600.00    -44.00
+2   BitCoin            $    0.86        5900            $   5059.25      0.07
+
+--------------------------------------------------
+Progress Report
+--------------------------------------------------
+Overall wealth gained/lossed:$59970.15   23.99%
+
+Wealth Gained or lost from last turn:$909.00
+Index: ^DJI           Current Value: 12239.89
+Gain/Loss:1943.04 points since start               Gain/Loss:197.92 from last turn
